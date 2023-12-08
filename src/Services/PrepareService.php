@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\External\Contracts\ExtraDtoInterface;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Assembler\ExtraDtoAssemblerInterface;
-use Bavix\Wallet\Internal\Assembler\TransactionDtoAssemblerInterface;
-use Bavix\Wallet\Internal\Assembler\TransferLazyDtoAssemblerInterface;
-use Bavix\Wallet\Internal\Dto\TransactionDtoInterface;
-use Bavix\Wallet\Internal\Dto\TransferLazyDtoInterface;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Wallet as WalletModel;
+use Superern\Wallet\Exceptions\AmountInvalid;
+use Superern\Wallet\External\Contracts\ExtraDtoInterface;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Assembler\ExtraDtoAssemblerInterface;
+use Superern\Wallet\Internal\Assembler\TransactionDtoAssemblerInterface;
+use Superern\Wallet\Internal\Assembler\TransferLazyDtoAssemblerInterface;
+use Superern\Wallet\Internal\Dto\TransactionDtoInterface;
+use Superern\Wallet\Internal\Dto\TransferLazyDtoInterface;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Models\Wallet as WalletModel;
 
 /**
  * @internal

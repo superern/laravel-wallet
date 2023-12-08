@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Transform;
+namespace Superern\Wallet\Internal\Transform;
 
-use Bavix\Wallet\Internal\Dto\TransactionDtoInterface;
+use Superern\Wallet\Internal\Dto\TransactionDtoInterface;
 use DateTimeImmutable;
 
 interface TransactionDtoTransformerInterface

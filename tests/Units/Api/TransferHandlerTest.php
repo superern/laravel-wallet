@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Api;
+namespace Superern\Wallet\Test\Units\Api;
 
-use Bavix\Wallet\External\Api\TransferQuery;
-use Bavix\Wallet\External\Api\TransferQueryHandlerInterface;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\External\Api\TransferQuery;
+use Superern\Wallet\External\Api\TransferQueryHandlerInterface;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\TestCase;
 use function app;
 
 /**

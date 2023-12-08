@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Service\DatabaseServiceInterface;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Test\Infra\Factories\UserFloatFactory;
-use Bavix\Wallet\Test\Infra\Models\UserFloat;
-use Bavix\Wallet\Test\Infra\Models\UserFloat as User;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Exceptions\AmountInvalid;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Service\DatabaseServiceInterface;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Test\Infra\Factories\UserFloatFactory;
+use Superern\Wallet\Test\Infra\Models\UserFloat;
+use Superern\Wallet\Test\Infra\Models\UserFloat as User;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal
@@ -316,7 +316,7 @@ final class WalletFloatTest extends TestCase
     /**
      * Case from @EdX9.
      *
-     * @see https://github.com/bavix/laravel-wallet/issues/469
+     * @see https://github.com/superern/laravel-wallet/issues/469
      *
      * @throws ExceptionInterface
      */
@@ -339,7 +339,7 @@ final class WalletFloatTest extends TestCase
     /**
      * Case from @ucanbehack.
      *
-     * @see https://github.com/bavix/laravel-wallet/issues/149
+     * @see https://github.com/superern/laravel-wallet/issues/149
      */
     public function testBitcoin2(): void
     {

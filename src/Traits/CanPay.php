@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Traits;
+namespace Superern\Wallet\Traits;
 
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Exceptions\ProductEnded;
-use Bavix\Wallet\Interfaces\ProductInterface;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\ModelNotFoundException;
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Objects\Cart;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\Exceptions\ProductEnded;
+use Superern\Wallet\Interfaces\ProductInterface;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\ModelNotFoundException;
+use Superern\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Objects\Cart;
 use Illuminate\Database\RecordsNotFoundException;
 use function current;
 
 /**
  * @psalm-require-extends \Illuminate\Database\Eloquent\Model
- * @psalm-require-implements \Bavix\Wallet\Interfaces\Customer
+ * @psalm-require-implements \Superern\Wallet\Interfaces\Customer
  */
 trait CanPay
 {

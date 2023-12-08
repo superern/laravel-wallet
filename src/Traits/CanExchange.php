@@ -2,26 +2,26 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Traits;
+namespace Superern\Wallet\Traits;
 
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\External\Contracts\ExtraDtoInterface;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Assembler\ExtraDtoAssemblerInterface;
-use Bavix\Wallet\Internal\Assembler\TransferLazyDtoAssemblerInterface;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Services\AtomicServiceInterface;
-use Bavix\Wallet\Services\CastServiceInterface;
-use Bavix\Wallet\Services\ConsistencyServiceInterface;
-use Bavix\Wallet\Services\ExchangeServiceInterface;
-use Bavix\Wallet\Services\PrepareServiceInterface;
-use Bavix\Wallet\Services\TaxServiceInterface;
-use Bavix\Wallet\Services\TransferServiceInterface;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\External\Contracts\ExtraDtoInterface;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Assembler\ExtraDtoAssemblerInterface;
+use Superern\Wallet\Internal\Assembler\TransferLazyDtoAssemblerInterface;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Services\AtomicServiceInterface;
+use Superern\Wallet\Services\CastServiceInterface;
+use Superern\Wallet\Services\ConsistencyServiceInterface;
+use Superern\Wallet\Services\ExchangeServiceInterface;
+use Superern\Wallet\Services\PrepareServiceInterface;
+use Superern\Wallet\Services\TaxServiceInterface;
+use Superern\Wallet\Services\TransferServiceInterface;
 use Illuminate\Database\RecordsNotFoundException;
 
 /**

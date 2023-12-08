@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Exceptions;
+namespace Superern\Wallet\Internal\Exceptions;
 
 use InvalidArgumentException;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Query;
+namespace Superern\Wallet\Internal\Query;
 
 interface TransferQueryInterface
 {

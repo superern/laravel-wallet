@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Internal\Assembler\TransferDtoAssemblerInterface;
-use Bavix\Wallet\Internal\Dto\TransferLazyDtoInterface;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Internal\Repository\TransferRepositoryInterface;
-use Bavix\Wallet\Internal\Service\DatabaseServiceInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Transfer;
+use Superern\Wallet\Internal\Assembler\TransferDtoAssemblerInterface;
+use Superern\Wallet\Internal\Dto\TransferLazyDtoInterface;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Internal\Repository\TransferRepositoryInterface;
+use Superern\Wallet\Internal\Service\DatabaseServiceInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Models\Transfer;
 use Illuminate\Database\RecordsNotFoundException;
 
 /**

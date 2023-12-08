@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use Bavix\Wallet\Test\Infra\PackageModels\Transaction;
+use Superern\Wallet\Test\Infra\PackageModels\Transaction;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;

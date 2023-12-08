@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Interfaces;
+namespace Superern\Wallet\Interfaces;
 
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\External\Contracts\ExtraDtoInterface;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Models\Transfer;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\External\Contracts\ExtraDtoInterface;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Models\Transfer;
 use Illuminate\Database\RecordsNotFoundException;
 
 interface Exchangeable

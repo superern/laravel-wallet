@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Interfaces\ProductLimitedInterface;
-use Bavix\Wallet\Internal\Dto\AvailabilityDtoInterface;
+use Superern\Wallet\Interfaces\ProductLimitedInterface;
+use Superern\Wallet\Internal\Dto\AvailabilityDtoInterface;
 
 /**
  * @internal

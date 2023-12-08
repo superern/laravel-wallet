@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Internal\Service\DatabaseServiceInterface;
-use Bavix\Wallet\Internal\Service\LockServiceInterface;
-use Bavix\Wallet\Internal\Service\StateServiceInterface;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Internal\Service\DatabaseServiceInterface;
+use Superern\Wallet\Internal\Service\LockServiceInterface;
+use Superern\Wallet\Internal\Service\StateServiceInterface;
 use Illuminate\Database\RecordsNotFoundException;
 
 /**
@@ -35,7 +35,7 @@ final class AtomicService implements AtomicServiceInterface
      */
     public function blocks(array $objects, callable $callback): mixed
     {
-        /** @var array<string, \Bavix\Wallet\Models\Wallet> $blockObjects */
+        /** @var array<string, \Superern\Wallet\Models\Wallet> $blockObjects */
         $blockObjects = [];
         foreach ($objects as $object) {
             $wallet = $this->castService->getWallet($object);

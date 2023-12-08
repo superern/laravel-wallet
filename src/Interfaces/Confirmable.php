@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Interfaces;
+namespace Superern\Wallet\Interfaces;
 
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\ConfirmedInvalid;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Exceptions\UnconfirmedInvalid;
-use Bavix\Wallet\Exceptions\WalletOwnerInvalid;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Models\Transaction;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\ConfirmedInvalid;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\Exceptions\UnconfirmedInvalid;
+use Superern\Wallet\Exceptions\WalletOwnerInvalid;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Models\Transaction;
 use Illuminate\Database\RecordsNotFoundException;
 
 interface Confirmable

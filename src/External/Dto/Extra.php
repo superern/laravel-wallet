@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\External\Dto;
+namespace Superern\Wallet\External\Dto;
 
-use Bavix\Wallet\External\Contracts\ExtraDtoInterface;
-use Bavix\Wallet\External\Contracts\OptionDtoInterface;
+use Superern\Wallet\External\Contracts\ExtraDtoInterface;
+use Superern\Wallet\External\Contracts\OptionDtoInterface;
 
 final class Extra implements ExtraDtoInterface
 {

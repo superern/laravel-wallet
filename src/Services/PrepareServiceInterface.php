@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\External\Contracts\ExtraDtoInterface;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Dto\TransactionDtoInterface;
-use Bavix\Wallet\Internal\Dto\TransferLazyDtoInterface;
-use Bavix\Wallet\Models\Wallet as WalletModel;
+use Superern\Wallet\Exceptions\AmountInvalid;
+use Superern\Wallet\External\Contracts\ExtraDtoInterface;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Dto\TransactionDtoInterface;
+use Superern\Wallet\Internal\Dto\TransferLazyDtoInterface;
+use Superern\Wallet\Models\Wallet as WalletModel;
 
 /**
  * @api

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Assembler;
+namespace Superern\Wallet\Internal\Assembler;
 
-use Bavix\Wallet\Internal\Query\TransactionQuery;
-use Bavix\Wallet\Internal\Query\TransactionQueryInterface;
+use Superern\Wallet\Internal\Query\TransactionQuery;
+use Superern\Wallet\Internal\Query\TransactionQueryInterface;
 
 final class TransactionQueryAssembler implements TransactionQueryAssemblerInterface
 {

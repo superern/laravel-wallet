@@ -8,42 +8,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [10.0.1] - 2023-09-30
 ### Bump
-* Bump semver from 7.3.8 to 7.5.4 by @dependabot in https://github.com/bavix/laravel-wallet/pull/726
-* Bump webpack from 5.76.3 to 5.88.1 by @dependabot in https://github.com/bavix/laravel-wallet/pull/724
-* Bump webpack from 5.88.1 to 5.88.2 by @dependabot in https://github.com/bavix/laravel-wallet/pull/730
-* Update symplify/easy-coding-standard requirement from ^11.5 to ^12.0 by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/732
-* Updated laravel rector set by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/733
-* Update driftingly/rector-laravel requirement from ^0.21 to ^0.22 by @dependabot in https://github.com/bavix/laravel-wallet/pull/735
-* Create npm workflow by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/736
-* Update docs.yaml by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/737
-* Update docs.yaml by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/739
-* Update docs.yaml by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/740
-* Update docs.yaml by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/741
-* Lumen documentation update by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/743
-* [Snyk] Upgrade webpack-cli from 5.0.0 to 5.1.4 by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/747
-* [Snyk] Upgrade axios from 1.3.4 to 1.4.0 by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/748
-* [Snyk] Upgrade size-limit from 8.2.4 to 8.2.6 by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/750
-* [Snyk] Upgrade mini-css-extract-plugin from 2.7.5 to 2.7.6 by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/751
-* [Snyk] Upgrade docsify from 4.13.0 to 4.13.1 by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/752
-* Update driftingly/rector-laravel requirement from ^0.22 to ^0.24 by @dependabot in https://github.com/bavix/laravel-wallet/pull/753
-* Bump axios from 1.4.0 to 1.5.0 by @dependabot in https://github.com/bavix/laravel-wallet/pull/756
-* Bump bavix/.github from 0.0.4 to 0.0.5 by @dependabot in https://github.com/bavix/laravel-wallet/pull/759
-* Bump size-limit from 8.2.6 to 9.0.0 by @dependabot in https://github.com/bavix/laravel-wallet/pull/762
-* Bump actions/stale from 6 to 8 by @dependabot in https://github.com/bavix/laravel-wallet/pull/761
-* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/bavix/laravel-wallet/pull/760
-* docs: update wording to sound grammatically correct by @justinkekeocha in https://github.com/bavix/laravel-wallet/pull/766
-* docs: customize name and slug of default wallet by @justinkekeocha in https://github.com/bavix/laravel-wallet/pull/765
-* docs: fixed grammatical error by @justinkekeocha in https://github.com/bavix/laravel-wallet/pull/764
-* Bump uuid from 9.0.0 to 9.0.1 by @dependabot in https://github.com/bavix/laravel-wallet/pull/768
-* checking the Wallet class extensibility by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/769
-* docs: Create configuration.md by @justinkekeocha in https://github.com/bavix/laravel-wallet/pull/771
-* docs: add configuration file to sidebar by @justinkekeocha in https://github.com/bavix/laravel-wallet/pull/772
-* docs: move configuration details to separate file by @justinkekeocha in https://github.com/bavix/laravel-wallet/pull/773
-* docs: update for clarity by @justinkekeocha in https://github.com/bavix/laravel-wallet/pull/774
-* Update driftingly/rector-laravel requirement from ^0.24 to ^0.25 by @dependabot in https://github.com/bavix/laravel-wallet/pull/779
-* Update driftingly/rector-laravel requirement from ^0.25 to ^0.26 by @dependabot in https://github.com/bavix/laravel-wallet/pull/780
-* Bump axios from 1.5.0 to 1.5.1 by @dependabot in https://github.com/bavix/laravel-wallet/pull/781
-* Add semgrep by @rez1dent3 in https://github.com/bavix/laravel-wallet/pull/783
+* Bump semver from 7.3.8 to 7.5.4 by @dependabot in https://github.com/superern/laravel-wallet/pull/726
+* Bump webpack from 5.76.3 to 5.88.1 by @dependabot in https://github.com/superern/laravel-wallet/pull/724
+* Bump webpack from 5.88.1 to 5.88.2 by @dependabot in https://github.com/superern/laravel-wallet/pull/730
+* Update symplify/easy-coding-standard requirement from ^11.5 to ^12.0 by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/732
+* Updated laravel rector set by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/733
+* Update driftingly/rector-laravel requirement from ^0.21 to ^0.22 by @dependabot in https://github.com/superern/laravel-wallet/pull/735
+* Create npm workflow by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/736
+* Update docs.yaml by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/737
+* Update docs.yaml by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/739
+* Update docs.yaml by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/740
+* Update docs.yaml by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/741
+* Lumen documentation update by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/743
+* [Snyk] Upgrade webpack-cli from 5.0.0 to 5.1.4 by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/747
+* [Snyk] Upgrade axios from 1.3.4 to 1.4.0 by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/748
+* [Snyk] Upgrade size-limit from 8.2.4 to 8.2.6 by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/750
+* [Snyk] Upgrade mini-css-extract-plugin from 2.7.5 to 2.7.6 by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/751
+* [Snyk] Upgrade docsify from 4.13.0 to 4.13.1 by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/752
+* Update driftingly/rector-laravel requirement from ^0.22 to ^0.24 by @dependabot in https://github.com/superern/laravel-wallet/pull/753
+* Bump axios from 1.4.0 to 1.5.0 by @dependabot in https://github.com/superern/laravel-wallet/pull/756
+* Bump superern/.github from 0.0.4 to 0.0.5 by @dependabot in https://github.com/superern/laravel-wallet/pull/759
+* Bump size-limit from 8.2.6 to 9.0.0 by @dependabot in https://github.com/superern/laravel-wallet/pull/762
+* Bump actions/stale from 6 to 8 by @dependabot in https://github.com/superern/laravel-wallet/pull/761
+* Bump actions/checkout from 3 to 4 by @dependabot in https://github.com/superern/laravel-wallet/pull/760
+* docs: update wording to sound grammatically correct by @justinkekeocha in https://github.com/superern/laravel-wallet/pull/766
+* docs: customize name and slug of default wallet by @justinkekeocha in https://github.com/superern/laravel-wallet/pull/765
+* docs: fixed grammatical error by @justinkekeocha in https://github.com/superern/laravel-wallet/pull/764
+* Bump uuid from 9.0.0 to 9.0.1 by @dependabot in https://github.com/superern/laravel-wallet/pull/768
+* checking the Wallet class extensibility by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/769
+* docs: Create configuration.md by @justinkekeocha in https://github.com/superern/laravel-wallet/pull/771
+* docs: add configuration file to sidebar by @justinkekeocha in https://github.com/superern/laravel-wallet/pull/772
+* docs: move configuration details to separate file by @justinkekeocha in https://github.com/superern/laravel-wallet/pull/773
+* docs: update for clarity by @justinkekeocha in https://github.com/superern/laravel-wallet/pull/774
+* Update driftingly/rector-laravel requirement from ^0.24 to ^0.25 by @dependabot in https://github.com/superern/laravel-wallet/pull/779
+* Update driftingly/rector-laravel requirement from ^0.25 to ^0.26 by @dependabot in https://github.com/superern/laravel-wallet/pull/780
+* Bump axios from 1.5.0 to 1.5.1 by @dependabot in https://github.com/superern/laravel-wallet/pull/781
+* Add semgrep by @rez1dent3 in https://github.com/superern/laravel-wallet/pull/783
 
 ## [10.0.0] - 2023-07-08
 
@@ -161,7 +161,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Fixed a bug that prevented items from being returned via `Cart::withItem`
 
-## [9.0.0] - 2022-05-02 [#481](https://github.com/bavix/laravel-wallet/pull/481)
+## [9.0.0] - 2022-05-02 [#481](https://github.com/superern/laravel-wallet/pull/481)
 ### Added
 - ExtraDtoInterface #479
 - Product custom price #485
@@ -781,9 +781,9 @@ This removes a lot of errors that were sent to my email.
 
 ### Changed
 - applied fixes from cs-fixer
-- change singleton path `bavix.wallet::transaction` to `Bavix\Wallet\Models\Transaction::class`
-- change singleton path `bavix.wallet::transfer` to `Bavix\Wallet\Models\Transfer::class`
-- change singleton path `bavix.wallet::wallet` to `Bavix\Wallet\Models\Wallet::class`
+- change singleton path `superern.wallet::transaction` to `Superern\Wallet\Models\Transaction::class`
+- change singleton path `superern.wallet::transfer` to `Superern\Wallet\Models\Transfer::class`
+- change singleton path `superern.wallet::wallet` to `Superern\Wallet\Models\Wallet::class`
 - change method `canBuy`. Added parameter `$quantity`
 
 ### Removed
@@ -1047,113 +1047,113 @@ The operation is now executed in the transaction and updates the new `refund` fi
 - Exceptions: AmountInvalid, BalanceIsEmpty.
 - Models: Transfer, Transaction.
 
-[Unreleased]: https://github.com/bavix/laravel-wallet/compare/10.0.1...develop
-[10.0.1]: https://github.com/bavix/laravel-wallet/compare/10.0.0...10.0.1
-[10.0.0]: https://github.com/bavix/laravel-wallet/compare/9.6.2...10.0.0
-[9.6.2]: https://github.com/bavix/laravel-wallet/compare/9.6.1...9.6.2
-[9.6.1]: https://github.com/bavix/laravel-wallet/compare/9.6.0...9.6.1
-[9.6.0]: https://github.com/bavix/laravel-wallet/compare/9.5.0...9.6.0
-[9.5.0]: https://github.com/bavix/laravel-wallet/compare/9.4.0...9.5.0
-[9.4.0]: https://github.com/bavix/laravel-wallet/compare/9.3.0...9.4.0
-[9.3.0]: https://github.com/bavix/laravel-wallet/compare/9.2.0...9.3.0
-[9.2.0]: https://github.com/bavix/laravel-wallet/compare/9.1.0...9.2.0
-[9.1.0]: https://github.com/bavix/laravel-wallet/compare/9.0.4...9.1.0
-[9.0.4]: https://github.com/bavix/laravel-wallet/compare/9.0.3...9.0.4
-[9.0.3]: https://github.com/bavix/laravel-wallet/compare/9.0.2...9.0.3
-[9.0.2]: https://github.com/bavix/laravel-wallet/compare/9.0.1...9.0.2
-[9.0.1]: https://github.com/bavix/laravel-wallet/compare/9.0.0...9.0.1
-[9.0.0]: https://github.com/bavix/laravel-wallet/compare/8.4.3...9.0.0
-[8.4.3]: https://github.com/bavix/laravel-wallet/compare/8.4.2...8.4.3
-[8.4.2]: https://github.com/bavix/laravel-wallet/compare/8.4.1...8.4.2
-[8.4.1]: https://github.com/bavix/laravel-wallet/compare/8.4.0...8.4.1
-[8.4.0]: https://github.com/bavix/laravel-wallet/compare/8.3.0...8.4.0
-[8.3.0]: https://github.com/bavix/laravel-wallet/compare/8.2.1...8.3.0
-[8.2.1]: https://github.com/bavix/laravel-wallet/compare/8.2.0...8.2.1
-[8.2.0]: https://github.com/bavix/laravel-wallet/compare/8.1.1...8.2.0
-[8.1.1]: https://github.com/bavix/laravel-wallet/compare/8.1.0...8.1.1
-[8.1.0]: https://github.com/bavix/laravel-wallet/compare/8.0.6...8.1.0
-[8.0.6]: https://github.com/bavix/laravel-wallet/compare/8.0.5...8.0.6
-[8.0.5]: https://github.com/bavix/laravel-wallet/compare/8.0.4...8.0.5
-[8.0.4]: https://github.com/bavix/laravel-wallet/compare/8.0.3...8.0.4
-[8.0.3]: https://github.com/bavix/laravel-wallet/compare/8.0.2...8.0.3
-[8.0.2]: https://github.com/bavix/laravel-wallet/compare/8.0.1...8.0.2
-[8.0.1]: https://github.com/bavix/laravel-wallet/compare/8.0.0...8.0.1
-[8.0.0]: https://github.com/bavix/laravel-wallet/compare/7.3.6...8.0.0
-[7.3.6]: https://github.com/bavix/laravel-wallet/compare/7.3.5...7.3.6
-[7.3.5]: https://github.com/bavix/laravel-wallet/compare/7.3.4...7.3.5
-[7.3.4]: https://github.com/bavix/laravel-wallet/compare/7.3.3...7.3.4
-[7.3.3]: https://github.com/bavix/laravel-wallet/compare/7.3.2...7.3.3
-[7.3.2]: https://github.com/bavix/laravel-wallet/compare/7.3.1...7.3.2
-[7.3.1]: https://github.com/bavix/laravel-wallet/compare/7.3.0...7.3.1
-[7.3.0]: https://github.com/bavix/laravel-wallet/compare/7.2.0...7.3.0
-[7.2.0]: https://github.com/bavix/laravel-wallet/compare/7.1.0...7.2.0
-[7.1.0]: https://github.com/bavix/laravel-wallet/compare/7.0.0...7.1.0
-[7.0.0]: https://github.com/bavix/laravel-wallet/compare/6.2.4...7.0.0
-[6.2.4]: https://github.com/bavix/laravel-wallet/compare/6.2.3...6.2.4
-[6.2.3]: https://github.com/bavix/laravel-wallet/compare/6.2.2...6.2.3
-[6.2.2]: https://github.com/bavix/laravel-wallet/compare/6.2.1...6.2.2
-[6.2.1]: https://github.com/bavix/laravel-wallet/compare/6.2.0...6.2.1
-[6.2.0]: https://github.com/bavix/laravel-wallet/compare/6.1.0...6.2.0
-[6.1.0]: https://github.com/bavix/laravel-wallet/compare/6.0.4...6.1.0
-[6.0.4]: https://github.com/bavix/laravel-wallet/compare/6.0.3...6.0.4
-[6.0.3]: https://github.com/bavix/laravel-wallet/compare/6.0.2...6.0.3
-[6.0.2]: https://github.com/bavix/laravel-wallet/compare/6.0.1...6.0.2
-[6.0.1]: https://github.com/bavix/laravel-wallet/compare/6.0.0...6.0.1
-[6.0.0]: https://github.com/bavix/laravel-wallet/compare/5.5.1...6.0.0
-[5.5.1]: https://github.com/bavix/laravel-wallet/compare/5.5.0...5.5.1
-[5.5.0]: https://github.com/bavix/laravel-wallet/compare/5.4.0...5.5.0
-[5.4.0]: https://github.com/bavix/laravel-wallet/compare/5.3.2...5.4.0
-[5.3.2]: https://github.com/bavix/laravel-wallet/compare/5.3.1...5.3.2
-[5.3.1]: https://github.com/bavix/laravel-wallet/compare/5.3.0...5.3.1
-[5.3.0]: https://github.com/bavix/laravel-wallet/compare/5.2.1...5.3.0
-[5.2.1]: https://github.com/bavix/laravel-wallet/compare/5.2.0...5.2.1
-[5.2.0]: https://github.com/bavix/laravel-wallet/compare/5.1.0...5.2.0
-[5.1.0]: https://github.com/bavix/laravel-wallet/compare/5.0.2...5.1.0
-[5.0.2]: https://github.com/bavix/laravel-wallet/compare/5.0.1...5.0.2
-[5.0.1]: https://github.com/bavix/laravel-wallet/compare/5.0.0...5.0.1
-[5.0.0]: https://github.com/bavix/laravel-wallet/compare/4.2.2...5.0.0
-[4.2.2]: https://github.com/bavix/laravel-wallet/compare/4.2.1...4.2.2
-[4.2.1]: https://github.com/bavix/laravel-wallet/compare/4.2.0...4.2.1
-[4.2.0]: https://github.com/bavix/laravel-wallet/compare/4.1.4...4.2.0
-[4.1.4]: https://github.com/bavix/laravel-wallet/compare/4.1.3...4.1.4
-[4.1.3]: https://github.com/bavix/laravel-wallet/compare/4.1.2...4.1.3
-[4.1.2]: https://github.com/bavix/laravel-wallet/compare/4.1.1...4.1.2
-[4.1.1]: https://github.com/bavix/laravel-wallet/compare/4.1.0...4.1.1
-[4.1.0]: https://github.com/bavix/laravel-wallet/compare/4.0.1...4.1.0
-[4.0.1]: https://github.com/bavix/laravel-wallet/compare/4.0.0...4.0.1
-[4.0.0]: https://github.com/bavix/laravel-wallet/compare/3.3.0...4.0.0
-[3.3.0]: https://github.com/bavix/laravel-wallet/compare/3.2.1...3.3.0
-[3.2.1]: https://github.com/bavix/laravel-wallet/compare/3.2.0...3.2.1
-[3.2.0]: https://github.com/bavix/laravel-wallet/compare/3.1.6...3.2.0
-[3.1.6]: https://github.com/bavix/laravel-wallet/compare/3.1.5...3.1.6
-[3.1.5]: https://github.com/bavix/laravel-wallet/compare/3.1.4...3.1.5
-[3.1.4]: https://github.com/bavix/laravel-wallet/compare/3.1.3...3.1.4
-[3.1.3]: https://github.com/bavix/laravel-wallet/compare/3.1.2...3.1.3
-[3.1.2]: https://github.com/bavix/laravel-wallet/compare/3.1.1...3.1.2
-[3.1.1]: https://github.com/bavix/laravel-wallet/compare/3.1.0...3.1.1
-[3.1.0]: https://github.com/bavix/laravel-wallet/compare/3.0.4...3.1.0
-[3.0.4]: https://github.com/bavix/laravel-wallet/compare/3.0.3...3.0.4
-[3.0.3]: https://github.com/bavix/laravel-wallet/compare/3.0.2...3.0.3
-[3.0.2]: https://github.com/bavix/laravel-wallet/compare/3.0.1...3.0.2
-[3.0.1]: https://github.com/bavix/laravel-wallet/compare/3.0.0...3.0.1
-[3.0.0]: https://github.com/bavix/laravel-wallet/compare/2.4.1...3.0.0
-[2.4.1]: https://github.com/bavix/laravel-wallet/compare/2.4.0...2.4.1
-[2.4.0]: https://github.com/bavix/laravel-wallet/compare/2.3.2...2.4.0
-[2.3.2]: https://github.com/bavix/laravel-wallet/compare/2.3.1...2.3.2
-[2.3.1]: https://github.com/bavix/laravel-wallet/compare/2.3.0...2.3.1
-[2.3.0]: https://github.com/bavix/laravel-wallet/compare/2.2.2...2.3.0
-[2.2.2]: https://github.com/bavix/laravel-wallet/compare/2.2.1...2.2.2
-[2.2.1]: https://github.com/bavix/laravel-wallet/compare/2.2.0...2.2.1
-[2.2.0]: https://github.com/bavix/laravel-wallet/compare/2.1.0...2.2.0
-[2.1.0]: https://github.com/bavix/laravel-wallet/compare/2.0.1...2.1.0
-[2.0.1]: https://github.com/bavix/laravel-wallet/compare/2.0.0...2.0.1
-[2.0.0]: https://github.com/bavix/laravel-wallet/compare/1.2.3...2.0.0
-[1.2.3]: https://github.com/bavix/laravel-wallet/compare/1.2.2...1.2.3
-[1.2.2]: https://github.com/bavix/laravel-wallet/compare/1.2.1...1.2.2
-[1.2.1]: https://github.com/bavix/laravel-wallet/compare/1.2.0...1.2.1
-[1.2.0]: https://github.com/bavix/laravel-wallet/compare/1.1.2...1.2.0
-[1.1.2]: https://github.com/bavix/laravel-wallet/compare/1.1.1...1.1.2
-[1.1.1]: https://github.com/bavix/laravel-wallet/compare/1.1.0...1.1.1
-[1.1.0]: https://github.com/bavix/laravel-wallet/compare/1.0.0...1.1.0
-[1.0.0]: https://github.com/bavix/laravel-wallet/compare/0.0.1...1.0.0
-[0.0.1]: https://github.com/bavix/laravel-wallet/compare/d181a99e751c5138694580ca4361d5129baa26b3...0.0.1
+[Unreleased]: https://github.com/superern/laravel-wallet/compare/10.0.1...develop
+[10.0.1]: https://github.com/superern/laravel-wallet/compare/10.0.0...10.0.1
+[10.0.0]: https://github.com/superern/laravel-wallet/compare/9.6.2...10.0.0
+[9.6.2]: https://github.com/superern/laravel-wallet/compare/9.6.1...9.6.2
+[9.6.1]: https://github.com/superern/laravel-wallet/compare/9.6.0...9.6.1
+[9.6.0]: https://github.com/superern/laravel-wallet/compare/9.5.0...9.6.0
+[9.5.0]: https://github.com/superern/laravel-wallet/compare/9.4.0...9.5.0
+[9.4.0]: https://github.com/superern/laravel-wallet/compare/9.3.0...9.4.0
+[9.3.0]: https://github.com/superern/laravel-wallet/compare/9.2.0...9.3.0
+[9.2.0]: https://github.com/superern/laravel-wallet/compare/9.1.0...9.2.0
+[9.1.0]: https://github.com/superern/laravel-wallet/compare/9.0.4...9.1.0
+[9.0.4]: https://github.com/superern/laravel-wallet/compare/9.0.3...9.0.4
+[9.0.3]: https://github.com/superern/laravel-wallet/compare/9.0.2...9.0.3
+[9.0.2]: https://github.com/superern/laravel-wallet/compare/9.0.1...9.0.2
+[9.0.1]: https://github.com/superern/laravel-wallet/compare/9.0.0...9.0.1
+[9.0.0]: https://github.com/superern/laravel-wallet/compare/8.4.3...9.0.0
+[8.4.3]: https://github.com/superern/laravel-wallet/compare/8.4.2...8.4.3
+[8.4.2]: https://github.com/superern/laravel-wallet/compare/8.4.1...8.4.2
+[8.4.1]: https://github.com/superern/laravel-wallet/compare/8.4.0...8.4.1
+[8.4.0]: https://github.com/superern/laravel-wallet/compare/8.3.0...8.4.0
+[8.3.0]: https://github.com/superern/laravel-wallet/compare/8.2.1...8.3.0
+[8.2.1]: https://github.com/superern/laravel-wallet/compare/8.2.0...8.2.1
+[8.2.0]: https://github.com/superern/laravel-wallet/compare/8.1.1...8.2.0
+[8.1.1]: https://github.com/superern/laravel-wallet/compare/8.1.0...8.1.1
+[8.1.0]: https://github.com/superern/laravel-wallet/compare/8.0.6...8.1.0
+[8.0.6]: https://github.com/superern/laravel-wallet/compare/8.0.5...8.0.6
+[8.0.5]: https://github.com/superern/laravel-wallet/compare/8.0.4...8.0.5
+[8.0.4]: https://github.com/superern/laravel-wallet/compare/8.0.3...8.0.4
+[8.0.3]: https://github.com/superern/laravel-wallet/compare/8.0.2...8.0.3
+[8.0.2]: https://github.com/superern/laravel-wallet/compare/8.0.1...8.0.2
+[8.0.1]: https://github.com/superern/laravel-wallet/compare/8.0.0...8.0.1
+[8.0.0]: https://github.com/superern/laravel-wallet/compare/7.3.6...8.0.0
+[7.3.6]: https://github.com/superern/laravel-wallet/compare/7.3.5...7.3.6
+[7.3.5]: https://github.com/superern/laravel-wallet/compare/7.3.4...7.3.5
+[7.3.4]: https://github.com/superern/laravel-wallet/compare/7.3.3...7.3.4
+[7.3.3]: https://github.com/superern/laravel-wallet/compare/7.3.2...7.3.3
+[7.3.2]: https://github.com/superern/laravel-wallet/compare/7.3.1...7.3.2
+[7.3.1]: https://github.com/superern/laravel-wallet/compare/7.3.0...7.3.1
+[7.3.0]: https://github.com/superern/laravel-wallet/compare/7.2.0...7.3.0
+[7.2.0]: https://github.com/superern/laravel-wallet/compare/7.1.0...7.2.0
+[7.1.0]: https://github.com/superern/laravel-wallet/compare/7.0.0...7.1.0
+[7.0.0]: https://github.com/superern/laravel-wallet/compare/6.2.4...7.0.0
+[6.2.4]: https://github.com/superern/laravel-wallet/compare/6.2.3...6.2.4
+[6.2.3]: https://github.com/superern/laravel-wallet/compare/6.2.2...6.2.3
+[6.2.2]: https://github.com/superern/laravel-wallet/compare/6.2.1...6.2.2
+[6.2.1]: https://github.com/superern/laravel-wallet/compare/6.2.0...6.2.1
+[6.2.0]: https://github.com/superern/laravel-wallet/compare/6.1.0...6.2.0
+[6.1.0]: https://github.com/superern/laravel-wallet/compare/6.0.4...6.1.0
+[6.0.4]: https://github.com/superern/laravel-wallet/compare/6.0.3...6.0.4
+[6.0.3]: https://github.com/superern/laravel-wallet/compare/6.0.2...6.0.3
+[6.0.2]: https://github.com/superern/laravel-wallet/compare/6.0.1...6.0.2
+[6.0.1]: https://github.com/superern/laravel-wallet/compare/6.0.0...6.0.1
+[6.0.0]: https://github.com/superern/laravel-wallet/compare/5.5.1...6.0.0
+[5.5.1]: https://github.com/superern/laravel-wallet/compare/5.5.0...5.5.1
+[5.5.0]: https://github.com/superern/laravel-wallet/compare/5.4.0...5.5.0
+[5.4.0]: https://github.com/superern/laravel-wallet/compare/5.3.2...5.4.0
+[5.3.2]: https://github.com/superern/laravel-wallet/compare/5.3.1...5.3.2
+[5.3.1]: https://github.com/superern/laravel-wallet/compare/5.3.0...5.3.1
+[5.3.0]: https://github.com/superern/laravel-wallet/compare/5.2.1...5.3.0
+[5.2.1]: https://github.com/superern/laravel-wallet/compare/5.2.0...5.2.1
+[5.2.0]: https://github.com/superern/laravel-wallet/compare/5.1.0...5.2.0
+[5.1.0]: https://github.com/superern/laravel-wallet/compare/5.0.2...5.1.0
+[5.0.2]: https://github.com/superern/laravel-wallet/compare/5.0.1...5.0.2
+[5.0.1]: https://github.com/superern/laravel-wallet/compare/5.0.0...5.0.1
+[5.0.0]: https://github.com/superern/laravel-wallet/compare/4.2.2...5.0.0
+[4.2.2]: https://github.com/superern/laravel-wallet/compare/4.2.1...4.2.2
+[4.2.1]: https://github.com/superern/laravel-wallet/compare/4.2.0...4.2.1
+[4.2.0]: https://github.com/superern/laravel-wallet/compare/4.1.4...4.2.0
+[4.1.4]: https://github.com/superern/laravel-wallet/compare/4.1.3...4.1.4
+[4.1.3]: https://github.com/superern/laravel-wallet/compare/4.1.2...4.1.3
+[4.1.2]: https://github.com/superern/laravel-wallet/compare/4.1.1...4.1.2
+[4.1.1]: https://github.com/superern/laravel-wallet/compare/4.1.0...4.1.1
+[4.1.0]: https://github.com/superern/laravel-wallet/compare/4.0.1...4.1.0
+[4.0.1]: https://github.com/superern/laravel-wallet/compare/4.0.0...4.0.1
+[4.0.0]: https://github.com/superern/laravel-wallet/compare/3.3.0...4.0.0
+[3.3.0]: https://github.com/superern/laravel-wallet/compare/3.2.1...3.3.0
+[3.2.1]: https://github.com/superern/laravel-wallet/compare/3.2.0...3.2.1
+[3.2.0]: https://github.com/superern/laravel-wallet/compare/3.1.6...3.2.0
+[3.1.6]: https://github.com/superern/laravel-wallet/compare/3.1.5...3.1.6
+[3.1.5]: https://github.com/superern/laravel-wallet/compare/3.1.4...3.1.5
+[3.1.4]: https://github.com/superern/laravel-wallet/compare/3.1.3...3.1.4
+[3.1.3]: https://github.com/superern/laravel-wallet/compare/3.1.2...3.1.3
+[3.1.2]: https://github.com/superern/laravel-wallet/compare/3.1.1...3.1.2
+[3.1.1]: https://github.com/superern/laravel-wallet/compare/3.1.0...3.1.1
+[3.1.0]: https://github.com/superern/laravel-wallet/compare/3.0.4...3.1.0
+[3.0.4]: https://github.com/superern/laravel-wallet/compare/3.0.3...3.0.4
+[3.0.3]: https://github.com/superern/laravel-wallet/compare/3.0.2...3.0.3
+[3.0.2]: https://github.com/superern/laravel-wallet/compare/3.0.1...3.0.2
+[3.0.1]: https://github.com/superern/laravel-wallet/compare/3.0.0...3.0.1
+[3.0.0]: https://github.com/superern/laravel-wallet/compare/2.4.1...3.0.0
+[2.4.1]: https://github.com/superern/laravel-wallet/compare/2.4.0...2.4.1
+[2.4.0]: https://github.com/superern/laravel-wallet/compare/2.3.2...2.4.0
+[2.3.2]: https://github.com/superern/laravel-wallet/compare/2.3.1...2.3.2
+[2.3.1]: https://github.com/superern/laravel-wallet/compare/2.3.0...2.3.1
+[2.3.0]: https://github.com/superern/laravel-wallet/compare/2.2.2...2.3.0
+[2.2.2]: https://github.com/superern/laravel-wallet/compare/2.2.1...2.2.2
+[2.2.1]: https://github.com/superern/laravel-wallet/compare/2.2.0...2.2.1
+[2.2.0]: https://github.com/superern/laravel-wallet/compare/2.1.0...2.2.0
+[2.1.0]: https://github.com/superern/laravel-wallet/compare/2.0.1...2.1.0
+[2.0.1]: https://github.com/superern/laravel-wallet/compare/2.0.0...2.0.1
+[2.0.0]: https://github.com/superern/laravel-wallet/compare/1.2.3...2.0.0
+[1.2.3]: https://github.com/superern/laravel-wallet/compare/1.2.2...1.2.3
+[1.2.2]: https://github.com/superern/laravel-wallet/compare/1.2.1...1.2.2
+[1.2.1]: https://github.com/superern/laravel-wallet/compare/1.2.0...1.2.1
+[1.2.0]: https://github.com/superern/laravel-wallet/compare/1.1.2...1.2.0
+[1.1.2]: https://github.com/superern/laravel-wallet/compare/1.1.1...1.1.2
+[1.1.1]: https://github.com/superern/laravel-wallet/compare/1.1.0...1.1.1
+[1.1.0]: https://github.com/superern/laravel-wallet/compare/1.0.0...1.1.0
+[1.0.0]: https://github.com/superern/laravel-wallet/compare/0.0.1...1.0.0
+[0.0.1]: https://github.com/superern/laravel-wallet/compare/d181a99e751c5138694580ca4361d5129baa26b3...0.0.1

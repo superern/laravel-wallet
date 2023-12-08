@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Assembler;
+namespace Superern\Wallet\Internal\Assembler;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Dto\TransactionDtoInterface;
-use Bavix\Wallet\Internal\Dto\TransferLazyDto;
-use Bavix\Wallet\Internal\Dto\TransferLazyDtoInterface;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Dto\TransactionDtoInterface;
+use Superern\Wallet\Internal\Dto\TransferLazyDto;
+use Superern\Wallet\Internal\Dto\TransferLazyDtoInterface;
 
 final class TransferLazyDtoAssembler implements TransferLazyDtoAssemblerInterface
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Assembler;
+namespace Superern\Wallet\Internal\Assembler;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Internal\Dto\AvailabilityDtoInterface;
-use Bavix\Wallet\Internal\Dto\BasketDtoInterface;
+use Superern\Wallet\Interfaces\Customer;
+use Superern\Wallet\Internal\Dto\AvailabilityDtoInterface;
+use Superern\Wallet\Internal\Dto\BasketDtoInterface;
 
 interface AvailabilityDtoAssemblerInterface
 {

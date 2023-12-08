@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Services;
+namespace Superern\Wallet\Test\Infra\Services;
 
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Services\ExchangeServiceInterface;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Services\ExchangeServiceInterface;
 
 final class ExchangeUsdToBtcService implements ExchangeServiceInterface
 {

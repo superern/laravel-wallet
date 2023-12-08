@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Assembler;
+namespace Superern\Wallet\Internal\Assembler;
 
-use Bavix\Wallet\Internal\Dto\TransferDto;
-use Bavix\Wallet\Internal\Dto\TransferDtoInterface;
-use Bavix\Wallet\Internal\Service\UuidFactoryServiceInterface;
+use Superern\Wallet\Internal\Dto\TransferDto;
+use Superern\Wallet\Internal\Dto\TransferDtoInterface;
+use Superern\Wallet\Internal\Service\UuidFactoryServiceInterface;
 use Illuminate\Database\Eloquent\Model;
 
 final class TransferDtoAssembler implements TransferDtoAssemblerInterface

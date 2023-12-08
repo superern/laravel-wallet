@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Internal\Dto\BasketDto;
-use Bavix\Wallet\Internal\Dto\ItemDto;
-use Bavix\Wallet\Internal\Dto\ItemDtoInterface;
-use Bavix\Wallet\Test\Infra\Models\Item;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Internal\Dto\BasketDto;
+use Superern\Wallet\Internal\Dto\ItemDto;
+use Superern\Wallet\Internal\Dto\ItemDtoInterface;
+use Superern\Wallet\Test\Infra\Models\Item;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal

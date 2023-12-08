@@ -9,9 +9,9 @@ You can create an unlimited number of wallets, but the `slug` for each wallet sh
 Add the `HasWallet`, `HasWallets` trait's and `Wallet` interface to model.
 
 ```php
-use Bavix\Wallet\Traits\HasWallet;
-use Bavix\Wallet\Traits\HasWallets;
-use Bavix\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Traits\HasWallet;
+use Superern\Wallet\Traits\HasWallets;
+use Superern\Wallet\Interfaces\Wallet;
 
 class User extends Model implements Wallet
 {

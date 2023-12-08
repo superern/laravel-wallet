@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\PackageModels;
+namespace Superern\Wallet\Test\Infra\PackageModels;
 
 use Cknow\Money\Money;
 
@@ -11,7 +11,7 @@ use Cknow\Money\Money;
  *
  * @property Money $currency
  */
-final class TransactionMoney extends \Bavix\Wallet\Models\Transaction
+final class TransactionMoney extends \Superern\Wallet\Models\Transaction
 {
     private ?Money $currency = null;
 

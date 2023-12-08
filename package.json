@@ -4,17 +4,17 @@
   "description": "Package documentation",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bavix/laravel-wallet.git"
+    "url": "git+https://github.com/superern/laravel-wallet.git"
   },
-  "author": "Maxim Babichev",
+  "author": "superern",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bavix/laravel-wallet/issues"
+    "url": "https://github.com/superern/laravel-wallet/issues"
   },
   "scripts": {
     "build": "webpack"
   },
-  "homepage": "https://bavix.github.io/laravel-wallet/",
+  "homepage": "https://superern.github.io/laravel-wallet/",
   "dependencies": {
     "axios": "^1.6.2",
     "css-loader": "^6.7.3",

@@ -13,7 +13,7 @@ $user->createWallet([
 ```
 
 Service for working with currencies you need to write yourself or
-use [library](https://github.com/bavix/laravel-wallet-swap).
+use [library](https://github.com/superern/laravel-wallet-swap).
 
 #### Service for working with currency
 
@@ -21,8 +21,8 @@ We will write a simple service.
 We will take the data from the array, and not from the database.
 
 ```php
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Services\ExchangeServiceInterface;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Services\ExchangeServiceInterface;
 
 class MyExchangeService implements ExchangeServiceInterface
 {

@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Models;
+namespace Superern\Wallet\Test\Infra\Models;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Interfaces\ProductLimitedInterface;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Models\Wallet;
-use Bavix\Wallet\Services\CastService;
-use Bavix\Wallet\Services\CastServiceInterface;
-use Bavix\Wallet\Test\Infra\Helpers\Config;
-use Bavix\Wallet\Traits\HasWallet;
-use Bavix\Wallet\Traits\HasWallets;
+use Superern\Wallet\Interfaces\Customer;
+use Superern\Wallet\Interfaces\ProductLimitedInterface;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Models\Wallet;
+use Superern\Wallet\Services\CastService;
+use Superern\Wallet\Services\CastServiceInterface;
+use Superern\Wallet\Test\Infra\Helpers\Config;
+use Superern\Wallet\Traits\HasWallet;
+use Superern\Wallet\Traits\HasWallets;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 

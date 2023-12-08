@@ -12,11 +12,11 @@ Customize `name`,`slug` and `meta` of default wallet.
         ],
 ```
 ## Extend base Wallet model
-You can extend base Wallet model by creating a new class that extends `Bavix\Wallet\Models\Wallet` and registering the new class in `config/wallet.php`.
+You can extend base Wallet model by creating a new class that extends `Superern\Wallet\Models\Wallet` and registering the new class in `config/wallet.php`.
 Example `MyWallet.php`
 
 ```php[App/Models/MyWallet.php]
-use Bavix\Wallet\Models\Wallet as WalletBase;
+use Superern\Wallet\Models\Wallet as WalletBase;
 
 class MyWallet extends WalletBase {
     public function helloWorld(): string { return "hello world"; }

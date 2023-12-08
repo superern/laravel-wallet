@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Exceptions\ProductEnded;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Models\Wallet;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Factories\ItemDiscountFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\Models\ItemDiscount;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Exceptions\ProductEnded;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Models\Wallet;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Factories\ItemDiscountFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\Models\ItemDiscount;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal

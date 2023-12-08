@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Models;
+namespace Superern\Wallet\Test\Infra\Models;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Interfaces\WalletFloat;
-use Bavix\Wallet\Traits\HasWalletFloat;
-use Bavix\Wallet\Traits\HasWallets;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Interfaces\WalletFloat;
+use Superern\Wallet\Traits\HasWalletFloat;
+use Superern\Wallet\Traits\HasWallets;
 use Illuminate\Database\Eloquent\Model;
 
 /**

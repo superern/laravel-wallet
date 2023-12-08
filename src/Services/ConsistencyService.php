@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Dto\TransferLazyDtoInterface;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Internal\Service\TranslatorServiceInterface;
+use Superern\Wallet\Exceptions\AmountInvalid;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Dto\TransferLazyDtoInterface;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Internal\Service\TranslatorServiceInterface;
 
 /**
  * @internal

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Listeners;
+namespace Superern\Wallet\Internal\Listeners;
 
-use Bavix\Wallet\Internal\Service\ConnectionServiceInterface;
-use Bavix\Wallet\Services\RegulatorServiceInterface;
+use Superern\Wallet\Internal\Service\ConnectionServiceInterface;
+use Superern\Wallet\Services\RegulatorServiceInterface;
 
 final class TransactionBeginningListener
 {

@@ -12,9 +12,9 @@ The transfer takes place between wallets.
 Prepare the model, add the `HasWallet`, `HasWallets` trait's and `Wallet` interface.
 
 ```php
-use Bavix\Wallet\Traits\HasWallet;
-use Bavix\Wallet\Traits\HasWallets;
-use Bavix\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Traits\HasWallet;
+use Superern\Wallet\Traits\HasWallets;
+use Superern\Wallet\Interfaces\Wallet;
 
 class User extends Model implements Wallet
 {
@@ -83,10 +83,10 @@ $secondWallet->balanceInt; // 0
 We will execute the transfer, but without confirmation of the withdrawal of funds.
 
 ```php
-use Bavix\Wallet\External\Dto\Extra;
-use Bavix\Wallet\External\Dto\Option;
+use Superern\Wallet\External\Dto\Extra;
+use Superern\Wallet\External\Dto\Option;
 
-/** @var $firstWallet \Bavix\Wallet\Interfaces\Wallet */
+/** @var $firstWallet \Superern\Wallet\Interfaces\Wallet */
 $transfer = $firstWallet->transfer($secondWallet, 500, new Extra(
     deposit: ['message' => 'Hello, secondWallet!'],
     withdraw: new Option(meta: ['something' => 'anything'], confirmed: false)

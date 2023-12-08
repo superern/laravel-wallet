@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Assembler;
+namespace Superern\Wallet\Internal\Assembler;
 
-use Bavix\Wallet\External\Contracts\OptionDtoInterface;
+use Superern\Wallet\External\Contracts\OptionDtoInterface;
 
 interface OptionDtoAssemblerInterface
 {

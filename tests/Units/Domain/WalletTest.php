@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Internal\Service\DatabaseServiceInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Services\RegulatorServiceInterface;
-use Bavix\Wallet\Test\Infra\Factories\UserFactory;
-use Bavix\Wallet\Test\Infra\Models\User;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Exceptions\AmountInvalid;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Internal\Service\DatabaseServiceInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Services\RegulatorServiceInterface;
+use Superern\Wallet\Test\Infra\Factories\UserFactory;
+use Superern\Wallet\Test\Infra\Models\User;
+use Superern\Wallet\Test\Infra\TestCase;
 use Illuminate\Database\Eloquent\Collection;
 use RuntimeException;
 use Throwable;
@@ -196,7 +196,7 @@ final class WalletTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/286#issue-750353538
+     * @see https://github.com/superern/laravel-wallet/issues/286#issue-750353538
      */
     public function testTransferWalletNotExists(): void
     {

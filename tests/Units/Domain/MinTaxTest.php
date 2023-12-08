@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Factories\ItemMaxTaxFactory;
-use Bavix\Wallet\Test\Infra\Factories\ItemMinTaxFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\Models\ItemMaxTax;
-use Bavix\Wallet\Test\Infra\Models\ItemMinTax;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Factories\ItemMaxTaxFactory;
+use Superern\Wallet\Test\Infra\Factories\ItemMinTaxFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\Models\ItemMaxTax;
+use Superern\Wallet\Test\Infra\Models\ItemMinTax;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal

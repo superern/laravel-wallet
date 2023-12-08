@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Traits;
+namespace Superern\Wallet\Traits;
 
 /**
  * @psalm-require-extends \Illuminate\Database\Eloquent\Model
- * @psalm-require-implements \Bavix\Wallet\Interfaces\Customer
+ * @psalm-require-implements \Superern\Wallet\Interfaces\Customer
  */
 trait CanPayFloat
 {

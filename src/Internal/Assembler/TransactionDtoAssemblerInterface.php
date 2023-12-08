@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Assembler;
+namespace Superern\Wallet\Internal\Assembler;
 
-use Bavix\Wallet\Internal\Dto\TransactionDtoInterface;
+use Superern\Wallet\Internal\Dto\TransactionDtoInterface;
 use Illuminate\Database\Eloquent\Model;
 
 interface TransactionDtoAssemblerInterface

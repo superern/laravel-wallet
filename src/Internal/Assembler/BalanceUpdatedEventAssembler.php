@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Assembler;
+namespace Superern\Wallet\Internal\Assembler;
 
-use Bavix\Wallet\Internal\Events\BalanceUpdatedEvent;
-use Bavix\Wallet\Internal\Events\BalanceUpdatedEventInterface;
-use Bavix\Wallet\Internal\Service\ClockServiceInterface;
-use Bavix\Wallet\Models\Wallet;
+use Superern\Wallet\Internal\Events\BalanceUpdatedEvent;
+use Superern\Wallet\Internal\Events\BalanceUpdatedEventInterface;
+use Superern\Wallet\Internal\Service\ClockServiceInterface;
+use Superern\Wallet\Models\Wallet;
 
 final class BalanceUpdatedEventAssembler implements BalanceUpdatedEventAssemblerInterface
 {

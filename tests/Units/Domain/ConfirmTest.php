@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Exceptions\ConfirmedInvalid;
-use Bavix\Wallet\Exceptions\UnconfirmedInvalid;
-use Bavix\Wallet\Exceptions\WalletOwnerInvalid;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Service\DatabaseServiceInterface;
-use Bavix\Wallet\Services\BookkeeperServiceInterface;
-use Bavix\Wallet\Services\RegulatorServiceInterface;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Factories\UserConfirmFactory;
-use Bavix\Wallet\Test\Infra\Factories\UserFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\Models\User;
-use Bavix\Wallet\Test\Infra\Models\UserConfirm;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Exceptions\ConfirmedInvalid;
+use Superern\Wallet\Exceptions\UnconfirmedInvalid;
+use Superern\Wallet\Exceptions\WalletOwnerInvalid;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Service\DatabaseServiceInterface;
+use Superern\Wallet\Services\BookkeeperServiceInterface;
+use Superern\Wallet\Services\RegulatorServiceInterface;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Factories\UserConfirmFactory;
+use Superern\Wallet\Test\Infra\Factories\UserFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\Models\User;
+use Superern\Wallet\Test\Infra\Models\UserConfirm;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal
@@ -90,7 +90,7 @@ final class ConfirmTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/134
+     * @see https://github.com/superern/laravel-wallet/issues/134
      */
     public function testWithdraw(): void
     {

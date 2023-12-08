@@ -2,36 +2,36 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Traits;
+namespace Superern\Wallet\Traits;
 
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Exceptions\ProductEnded;
-use Bavix\Wallet\Interfaces\CartInterface;
-use Bavix\Wallet\Interfaces\ProductInterface;
-use Bavix\Wallet\Internal\Assembler\AvailabilityDtoAssemblerInterface;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\ModelNotFoundException;
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Internal\Service\TranslatorServiceInterface;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Objects\Cart;
-use Bavix\Wallet\Services\AssistantServiceInterface;
-use Bavix\Wallet\Services\AtomicServiceInterface;
-use Bavix\Wallet\Services\BasketServiceInterface;
-use Bavix\Wallet\Services\CastServiceInterface;
-use Bavix\Wallet\Services\ConsistencyServiceInterface;
-use Bavix\Wallet\Services\EagerLoaderServiceInterface;
-use Bavix\Wallet\Services\PrepareServiceInterface;
-use Bavix\Wallet\Services\PurchaseServiceInterface;
-use Bavix\Wallet\Services\TransferServiceInterface;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\Exceptions\ProductEnded;
+use Superern\Wallet\Interfaces\CartInterface;
+use Superern\Wallet\Interfaces\ProductInterface;
+use Superern\Wallet\Internal\Assembler\AvailabilityDtoAssemblerInterface;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\ModelNotFoundException;
+use Superern\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Internal\Service\TranslatorServiceInterface;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Objects\Cart;
+use Superern\Wallet\Services\AssistantServiceInterface;
+use Superern\Wallet\Services\AtomicServiceInterface;
+use Superern\Wallet\Services\BasketServiceInterface;
+use Superern\Wallet\Services\CastServiceInterface;
+use Superern\Wallet\Services\ConsistencyServiceInterface;
+use Superern\Wallet\Services\EagerLoaderServiceInterface;
+use Superern\Wallet\Services\PrepareServiceInterface;
+use Superern\Wallet\Services\PurchaseServiceInterface;
+use Superern\Wallet\Services\TransferServiceInterface;
 use Illuminate\Database\RecordsNotFoundException;
 use function count;
 
 /**
  * @psalm-require-extends \Illuminate\Database\Eloquent\Model
- * @psalm-require-implements \Bavix\Wallet\Interfaces\Customer
+ * @psalm-require-implements \Superern\Wallet\Interfaces\Customer
  */
 trait CartPay
 {

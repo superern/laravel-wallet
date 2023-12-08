@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Exceptions;
+namespace Superern\Wallet\Test\Infra\Exceptions;
 
-use Bavix\Wallet\Internal\Exceptions\RuntimeExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\RuntimeExceptionInterface;
 use RuntimeException;
 
 final class UnknownEventException extends RuntimeException implements RuntimeExceptionInterface

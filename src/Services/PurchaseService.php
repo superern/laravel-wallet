@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Internal\Dto\BasketDtoInterface;
-use Bavix\Wallet\Models\Transfer;
+use Superern\Wallet\Interfaces\Customer;
+use Superern\Wallet\Internal\Dto\BasketDtoInterface;
+use Superern\Wallet\Models\Transfer;
 
 /**
  * @internal

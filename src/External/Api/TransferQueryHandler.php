@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\External\Api;
+namespace Superern\Wallet\External\Api;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Services\AssistantServiceInterface;
-use Bavix\Wallet\Services\AtomicServiceInterface;
-use Bavix\Wallet\Services\PrepareServiceInterface;
-use Bavix\Wallet\Services\TransferServiceInterface;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Services\AssistantServiceInterface;
+use Superern\Wallet\Services\AtomicServiceInterface;
+use Superern\Wallet\Services\PrepareServiceInterface;
+use Superern\Wallet\Services\TransferServiceInterface;
 
 /**
  * @internal

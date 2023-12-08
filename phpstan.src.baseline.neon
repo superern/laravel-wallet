@@ -1,32 +1,32 @@
 parameters:
 	ignoreErrors:
 		-
-			message: "#^Constructor in Bavix\\\\Wallet\\\\External\\\\Dto\\\\Extra has parameter \\$uuid with default value\\.$#"
+			message: "#^Constructor in Superern\\\\Wallet\\\\External\\\\Dto\\\\Extra has parameter \\$uuid with default value\\.$#"
 			count: 1
 			path: src/External/Dto/Extra.php
 
 		-
-			message: "#^Constructor in Bavix\\\\Wallet\\\\External\\\\Dto\\\\Option has parameter \\$confirmed with default value\\.$#"
+			message: "#^Constructor in Superern\\\\Wallet\\\\External\\\\Dto\\\\Option has parameter \\$confirmed with default value\\.$#"
 			count: 1
 			path: src/External/Dto/Option.php
 
 		-
-			message: "#^Constructor in Bavix\\\\Wallet\\\\External\\\\Dto\\\\Option has parameter \\$uuid with default value\\.$#"
+			message: "#^Constructor in Superern\\\\Wallet\\\\External\\\\Dto\\\\Option has parameter \\$uuid with default value\\.$#"
 			count: 1
 			path: src/External/Dto/Option.php
 
 		-
-			message: "#^Parameter \\#3 \\$payableId of class Bavix\\\\Wallet\\\\Internal\\\\Dto\\\\TransactionDto constructor expects int\\|string, mixed given\\.$#"
+			message: "#^Parameter \\#3 \\$payableId of class Superern\\\\Wallet\\\\Internal\\\\Dto\\\\TransactionDto constructor expects int\\|string, mixed given\\.$#"
 			count: 1
 			path: src/Internal/Assembler/TransactionDtoAssembler.php
 
 		-
-			message: "#^Parameter \\#6 \\$fromId of class Bavix\\\\Wallet\\\\Internal\\\\Dto\\\\TransferDto constructor expects int\\|string, mixed given\\.$#"
+			message: "#^Parameter \\#6 \\$fromId of class Superern\\\\Wallet\\\\Internal\\\\Dto\\\\TransferDto constructor expects int\\|string, mixed given\\.$#"
 			count: 1
 			path: src/Internal/Assembler/TransferDtoAssembler.php
 
 		-
-			message: "#^Parameter \\#8 \\$toId of class Bavix\\\\Wallet\\\\Internal\\\\Dto\\\\TransferDto constructor expects int\\|string, mixed given\\.$#"
+			message: "#^Parameter \\#8 \\$toId of class Superern\\\\Wallet\\\\Internal\\\\Dto\\\\TransferDto constructor expects int\\|string, mixed given\\.$#"
 			count: 1
 			path: src/Internal/Assembler/TransferDtoAssembler.php
 
@@ -41,7 +41,7 @@ parameters:
 			path: src/Internal/Service/LockService.php
 
 		-
-			message: "#^Method Bavix\\\\Wallet\\\\Internal\\\\Service\\\\StateService\\:\\:get\\(\\) should return string\\|null but returns mixed\\.$#"
+			message: "#^Method Superern\\\\Wallet\\\\Internal\\\\Service\\\\StateService\\:\\:get\\(\\) should return string\\|null but returns mixed\\.$#"
 			count: 1
 			path: src/Internal/Service/StateService.php
 
@@ -66,12 +66,12 @@ parameters:
 			path: src/Models/Wallet.php
 
 		-
-			message: "#^Method Bavix\\\\Wallet\\\\Models\\\\Wallet\\:\\:getAvailableBalanceAttribute\\(\\) should return float\\|int\\|string but returns mixed\\.$#"
+			message: "#^Method Superern\\\\Wallet\\\\Models\\\\Wallet\\:\\:getAvailableBalanceAttribute\\(\\) should return float\\|int\\|string but returns mixed\\.$#"
 			count: 1
 			path: src/Models/Wallet.php
 
 		-
-			message: "#^Method Bavix\\\\Wallet\\\\Models\\\\Wallet\\:\\:wallet\\(\\) should return Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\MorphOne\\<Bavix\\\\Wallet\\\\Models\\\\Wallet\\> but returns Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\MorphOne\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\.$#"
+			message: "#^Method Superern\\\\Wallet\\\\Models\\\\Wallet\\:\\:wallet\\(\\) should return Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\MorphOne\\<Superern\\\\Wallet\\\\Models\\\\Wallet\\> but returns Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\MorphOne\\<Illuminate\\\\Database\\\\Eloquent\\\\Model\\>\\.$#"
 			count: 2
 			path: src/Models/Wallet.php
 
@@ -96,7 +96,7 @@ parameters:
 			path: src/Models/Wallet.php
 
 		-
-			message: "#^Parameter \\#1 \\$attributes of method Bavix\\\\Wallet\\\\Internal\\\\Repository\\\\WalletRepositoryInterface\\:\\:create\\(\\) expects array\\{holder_type\\: string, holder_id\\: int\\|string, name\\: string, slug\\?\\: string, uuid\\: string, description\\?\\: string, meta\\: array\\|null, balance\\?\\: int, \\.\\.\\.\\}, non\\-empty\\-array given\\.$#"
+			message: "#^Parameter \\#1 \\$attributes of method Superern\\\\Wallet\\\\Internal\\\\Repository\\\\WalletRepositoryInterface\\:\\:create\\(\\) expects array\\{holder_type\\: string, holder_id\\: int\\|string, name\\: string, slug\\?\\: string, uuid\\: string, description\\?\\: string, meta\\: array\\|null, balance\\?\\: int, \\.\\.\\.\\}, non\\-empty\\-array given\\.$#"
 			count: 1
 			path: src/Services/WalletService.php
 
@@ -106,12 +106,12 @@ parameters:
 			path: src/Services/WalletService.php
 
 		-
-			message: "#^Parameter \\#2 \\$holderId of method Bavix\\\\Wallet\\\\Internal\\\\Repository\\\\WalletRepositoryInterface\\:\\:findBySlug\\(\\) expects int\\|string, mixed given\\.$#"
+			message: "#^Parameter \\#2 \\$holderId of method Superern\\\\Wallet\\\\Internal\\\\Repository\\\\WalletRepositoryInterface\\:\\:findBySlug\\(\\) expects int\\|string, mixed given\\.$#"
 			count: 1
 			path: src/Services/WalletService.php
 
 		-
-			message: "#^Parameter \\#2 \\$holderId of method Bavix\\\\Wallet\\\\Internal\\\\Repository\\\\WalletRepositoryInterface\\:\\:getBySlug\\(\\) expects int\\|string, mixed given\\.$#"
+			message: "#^Parameter \\#2 \\$holderId of method Superern\\\\Wallet\\\\Internal\\\\Repository\\\\WalletRepositoryInterface\\:\\:getBySlug\\(\\) expects int\\|string, mixed given\\.$#"
 			count: 1
 			path: src/Services/WalletService.php
 

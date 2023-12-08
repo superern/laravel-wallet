@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Dto;
+namespace Superern\Wallet\Internal\Dto;
 
-use Bavix\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Interfaces\Wallet;
 
 interface TransferLazyDtoInterface
 {

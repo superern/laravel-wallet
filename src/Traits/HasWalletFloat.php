@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Traits;
+namespace Superern\Wallet\Traits;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\External\Contracts\ExtraDtoInterface;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Services\CastServiceInterface;
+use Superern\Wallet\Exceptions\AmountInvalid;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\External\Contracts\ExtraDtoInterface;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Services\CastServiceInterface;
 use Illuminate\Database\RecordsNotFoundException;
 
 /**
@@ -23,7 +23,7 @@ use Illuminate\Database\RecordsNotFoundException;
  * @property string $balanceFloat
  * @property float $balanceFloatNum
  * @psalm-require-extends \Illuminate\Database\Eloquent\Model
- * @psalm-require-implements \Bavix\Wallet\Interfaces\WalletFloat
+ * @psalm-require-implements \Superern\Wallet\Interfaces\WalletFloat
  */
 trait HasWalletFloat
 {

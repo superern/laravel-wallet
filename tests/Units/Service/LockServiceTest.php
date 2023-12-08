@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Service;
+namespace Superern\Wallet\Test\Units\Service;
 
-use Bavix\Wallet\Internal\Service\LockServiceInterface;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Internal\Service\LockServiceInterface;
+use Superern\Wallet\Test\Infra\TestCase;
 use Illuminate\Support\Facades\DB;
 
 /**

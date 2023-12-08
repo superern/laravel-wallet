@@ -22,17 +22,17 @@ Replace `calculateBalance` to `refreshBalance`
 
 ## 2.4.x → 3.0.x
 
-Replace path `bavix.wallet::transaction` to `Bavix\Wallet\Models\Transaction::class`
+Replace path `superern.wallet::transaction` to `Superern\Wallet\Models\Transaction::class`
 
-Replace path `bavix.wallet::transfer` to `Bavix\Wallet\Models\Transfer::class`
+Replace path `superern.wallet::transfer` to `Superern\Wallet\Models\Transfer::class`
 
-Replace path `bavix.wallet::wallet` to `Bavix\Wallet\Models\Wallet::class`
+Replace path `superern.wallet::wallet` to `Superern\Wallet\Models\Wallet::class`
 
 ```php
 // old
-app('bavix.wallet::transaction'); 
+app('superern.wallet::transaction'); 
 // new
-app(Bavix\Wallet\Models\Transaction::class); 
+app(Superern\Wallet\Models\Transaction::class); 
 ```
 
 Add the `$quantity` parameter to the `canBuy` method.
@@ -191,7 +191,7 @@ That's it, you can use all 7.x functions to the fullest.
 The contract did not change globally, added more stringency and toned down the performance of the package. 
 On a basket of 150 products, the acceleration is a whopping 24x.
 
-All changes can be found in the [pull request](https://github.com/bavix/laravel-wallet/pull/407/files). 
+All changes can be found in the [pull request](https://github.com/superern/laravel-wallet/pull/407/files). 
 The kernel has changed globally, I would not recommend switching to version 7.0.0 at the very beginning, there may be bugs. 
 I advise you should at least 7.0.1.
 
@@ -209,7 +209,7 @@ Cart methods now support fluent-dto. It is necessary to replace the old code wit
 
 ```php
 // old
-$cart = app(\Bavix\Wallet\Objects\Cart::class)
+$cart = app(\Superern\Wallet\Objects\Cart::class)
     ->addItems($products)
     ->addItem($product)
     ->setMeta(['hello' => 'world']);
@@ -217,7 +217,7 @@ $cart = app(\Bavix\Wallet\Objects\Cart::class)
 $cart->addItem($product);
 
 // new. fluent
-$cart = app(\Bavix\Wallet\Objects\Cart::class)
+$cart = app(\Superern\Wallet\Objects\Cart::class)
     ->withItems($products)
     ->withItem($product)
     ->withMeta(['hello' => 'world']);
@@ -247,7 +247,7 @@ The product has been divided into two interfaces:
 
 The old Product interface should be replaced with one of these.
 
-Replace `Bavix\Wallet\Interfaces\Product` to `Bavix\Wallet\Interfaces\ProductLimitedInterface`. 
+Replace `Superern\Wallet\Interfaces\Product` to `Superern\Wallet\Interfaces\ProductLimitedInterface`. 
 
 ## 9.x.x  → 10.0.x
 

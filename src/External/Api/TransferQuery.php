@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\External\Api;
+namespace Superern\Wallet\External\Api;
 
-use Bavix\Wallet\External\Contracts\ExtraDtoInterface;
-use Bavix\Wallet\Interfaces\Wallet;
+use Superern\Wallet\External\Contracts\ExtraDtoInterface;
+use Superern\Wallet\Interfaces\Wallet;
 
 final class TransferQuery
 {

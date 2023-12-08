@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Assembler;
+namespace Superern\Wallet\Internal\Assembler;
 
-use Bavix\Wallet\Internal\Events\TransactionCreatedEvent;
-use Bavix\Wallet\Internal\Events\TransactionCreatedEventInterface;
-use Bavix\Wallet\Internal\Service\ClockServiceInterface;
-use Bavix\Wallet\Models\Transaction;
+use Superern\Wallet\Internal\Events\TransactionCreatedEvent;
+use Superern\Wallet\Internal\Events\TransactionCreatedEventInterface;
+use Superern\Wallet\Internal\Service\ClockServiceInterface;
+use Superern\Wallet\Models\Transaction;
 
 final class TransactionCreatedEventAssembler implements TransactionCreatedEventAssemblerInterface
 {

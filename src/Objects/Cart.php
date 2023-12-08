@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Objects;
+namespace Superern\Wallet\Objects;
 
-use Bavix\Wallet\Interfaces\CartInterface;
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Interfaces\ProductInterface;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Dto\BasketDto;
-use Bavix\Wallet\Internal\Dto\BasketDtoInterface;
-use Bavix\Wallet\Internal\Dto\ItemDto;
-use Bavix\Wallet\Internal\Dto\ItemDtoInterface;
-use Bavix\Wallet\Internal\Exceptions\CartEmptyException;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Services\CastServiceInterface;
+use Superern\Wallet\Interfaces\CartInterface;
+use Superern\Wallet\Interfaces\Customer;
+use Superern\Wallet\Interfaces\ProductInterface;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Dto\BasketDto;
+use Superern\Wallet\Internal\Dto\BasketDtoInterface;
+use Superern\Wallet\Internal\Dto\ItemDto;
+use Superern\Wallet\Internal\Dto\ItemDtoInterface;
+use Superern\Wallet\Internal\Exceptions\CartEmptyException;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Services\CastServiceInterface;
 use Countable;
 use function count;
 

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Internal\Assembler\WalletCreatedEventAssemblerInterface;
-use Bavix\Wallet\Internal\Exceptions\ModelNotFoundException;
-use Bavix\Wallet\Internal\Repository\WalletRepositoryInterface;
-use Bavix\Wallet\Internal\Service\DispatcherServiceInterface;
-use Bavix\Wallet\Internal\Service\UuidFactoryServiceInterface;
-use Bavix\Wallet\Models\Wallet;
+use Superern\Wallet\Internal\Assembler\WalletCreatedEventAssemblerInterface;
+use Superern\Wallet\Internal\Exceptions\ModelNotFoundException;
+use Superern\Wallet\Internal\Repository\WalletRepositoryInterface;
+use Superern\Wallet\Internal\Service\DispatcherServiceInterface;
+use Superern\Wallet\Internal\Service\UuidFactoryServiceInterface;
+use Superern\Wallet\Models\Wallet;
 use Illuminate\Database\Eloquent\Model;
 
 /**

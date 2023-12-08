@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Traits;
+namespace Superern\Wallet\Traits;
 
-use Bavix\Wallet\Models\Wallet as WalletModel;
-use Bavix\Wallet\Services\CastServiceInterface;
+use Superern\Wallet\Models\Wallet as WalletModel;
+use Superern\Wallet\Services\CastServiceInterface;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 
 /**

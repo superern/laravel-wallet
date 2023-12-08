@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Interfaces\MaximalTaxable;
-use Bavix\Wallet\Interfaces\MinimalTaxable;
-use Bavix\Wallet\Interfaces\Taxable;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Interfaces\MaximalTaxable;
+use Superern\Wallet\Interfaces\MinimalTaxable;
+use Superern\Wallet\Interfaces\Taxable;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
 
 /**
  * @internal
@@ -38,7 +38,7 @@ final class TaxService implements TaxServiceInterface
         /**
          * Added minimum commission condition.
          *
-         * @see https://github.com/bavix/laravel-wallet/issues/64#issuecomment-514483143
+         * @see https://github.com/superern/laravel-wallet/issues/64#issuecomment-514483143
          */
         if ($wallet instanceof MinimalTaxable) {
             $minimal = $wallet->getMinimalFee();

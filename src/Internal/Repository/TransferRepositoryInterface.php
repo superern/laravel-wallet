@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Repository;
+namespace Superern\Wallet\Internal\Repository;
 
-use Bavix\Wallet\Internal\Dto\TransferDtoInterface;
-use Bavix\Wallet\Internal\Query\TransferQueryInterface;
-use Bavix\Wallet\Models\Transfer;
+use Superern\Wallet\Internal\Dto\TransferDtoInterface;
+use Superern\Wallet\Internal\Query\TransferQueryInterface;
+use Superern\Wallet\Models\Transfer;
 
 interface TransferRepositoryInterface
 {

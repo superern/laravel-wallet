@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Models;
+namespace Superern\Wallet\Test\Infra\Models;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Interfaces\Discount;
-use Bavix\Wallet\Interfaces\ProductLimitedInterface;
-use Bavix\Wallet\Interfaces\Taxable;
-use Bavix\Wallet\Models\Wallet;
-use Bavix\Wallet\Services\CastService;
-use Bavix\Wallet\Traits\HasWallet;
+use Superern\Wallet\Interfaces\Customer;
+use Superern\Wallet\Interfaces\Discount;
+use Superern\Wallet\Interfaces\ProductLimitedInterface;
+use Superern\Wallet\Interfaces\Taxable;
+use Superern\Wallet\Models\Wallet;
+use Superern\Wallet\Services\CastService;
+use Superern\Wallet\Traits\HasWallet;
 use Illuminate\Database\Eloquent\Model;
 
 /**

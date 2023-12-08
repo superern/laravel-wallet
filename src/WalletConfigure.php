@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet;
+namespace Superern\Wallet;
 
 final class WalletConfigure
 {

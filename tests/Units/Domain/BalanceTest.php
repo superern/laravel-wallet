@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Models\Wallet;
-use Bavix\Wallet\Services\BookkeeperServiceInterface;
-use Bavix\Wallet\Services\RegulatorServiceInterface;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Models\Wallet;
+use Superern\Wallet\Services\BookkeeperServiceInterface;
+use Superern\Wallet\Services\RegulatorServiceInterface;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\TestCase;
 use PDOException;
 use PHPUnit\Framework\MockObject\MockObject;
 use function app;
@@ -47,7 +47,7 @@ final class BalanceTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/498
+     * @see https://github.com/superern/laravel-wallet/issues/498
      */
     public function testMetaModify(): void
     {

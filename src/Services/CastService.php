@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Assembler\WalletCreatedEventAssemblerInterface;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Service\DatabaseServiceInterface;
-use Bavix\Wallet\Internal\Service\DispatcherServiceInterface;
-use Bavix\Wallet\Models\Wallet as WalletModel;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Assembler\WalletCreatedEventAssemblerInterface;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Service\DatabaseServiceInterface;
+use Superern\Wallet\Internal\Service\DispatcherServiceInterface;
+use Superern\Wallet\Models\Wallet as WalletModel;
 use Illuminate\Database\Eloquent\Model;
 
 /**

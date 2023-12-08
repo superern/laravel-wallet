@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Models;
+namespace Superern\Wallet\Test\Infra\Models;
 
-use Bavix\Wallet\Traits\HasWallets;
-use Bavix\Wallet\Traits\MorphOneWallet;
+use Superern\Wallet\Traits\HasWallets;
+use Superern\Wallet\Traits\MorphOneWallet;
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Cashier\Billable;
 

@@ -56,6 +56,6 @@ $user->balanceInt; // -1
 There can be two situations:
 
 - The user's balance is zero, then we get an error
-`Bavix\Wallet\Exceptions\BalanceIsEmpty`
+`Superern\Wallet\Exceptions\BalanceIsEmpty`
 - If the balance is greater than zero, but it is not enough
-`Bavix\Wallet\Exceptions\InsufficientFunds`
+`Superern\Wallet\Exceptions\InsufficientFunds`

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Helpers;
+namespace Superern\Wallet\Test\Infra\Helpers;
 
 final class Config
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Service;
+namespace Superern\Wallet\Internal\Service;
 
-use Bavix\Wallet\Internal\Events\EventInterface;
+use Superern\Wallet\Internal\Events\EventInterface;
 use Illuminate\Contracts\Events\Dispatcher;
 
 final class DispatcherService implements DispatcherServiceInterface

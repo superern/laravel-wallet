@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra;
+namespace Superern\Wallet\Test\Infra;
 
-use Bavix\Wallet\Test\Infra\PackageModels\Transaction;
-use Bavix\Wallet\Test\Infra\PackageModels\Transfer;
-use Bavix\Wallet\Test\Infra\PackageModels\Wallet;
-use Bavix\Wallet\Test\Infra\Services\MyExchangeService;
-use Bavix\Wallet\WalletServiceProvider;
+use Superern\Wallet\Test\Infra\PackageModels\Transaction;
+use Superern\Wallet\Test\Infra\PackageModels\Transfer;
+use Superern\Wallet\Test\Infra\PackageModels\Wallet;
+use Superern\Wallet\Test\Infra\Services\MyExchangeService;
+use Superern\Wallet\WalletServiceProvider;
 use Illuminate\Config\Repository;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Testing\RefreshDatabase;

@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Service;
+namespace Superern\Wallet\Test\Units\Service;
 
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\ModelNotFoundException;
-use Bavix\Wallet\Internal\Service\UuidFactoryServiceInterface;
-use Bavix\Wallet\Services\WalletServiceInterface;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\Models\UserMulti;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\ModelNotFoundException;
+use Superern\Wallet\Internal\Service\UuidFactoryServiceInterface;
+use Superern\Wallet\Services\WalletServiceInterface;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Factories\UserMultiFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\Models\UserMulti;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal

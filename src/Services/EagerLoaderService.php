@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Internal\Dto\BasketDtoInterface;
-use Bavix\Wallet\Internal\Repository\WalletRepositoryInterface;
-use Bavix\Wallet\Models\Wallet;
+use Superern\Wallet\Interfaces\Customer;
+use Superern\Wallet\Internal\Dto\BasketDtoInterface;
+use Superern\Wallet\Internal\Repository\WalletRepositoryInterface;
+use Superern\Wallet\Models\Wallet;
 
 /**
  * @internal
@@ -27,7 +27,7 @@ final class EagerLoaderService implements EagerLoaderServiceInterface
         $productGroupIds = [];
         foreach ($basketDto->items() as $index => $item) {
             // If the wallet is installed, then there is no need for lazy loading
-            if ($item->getReceiving() instanceof \Bavix\Wallet\Interfaces\Wallet) {
+            if ($item->getReceiving() instanceof \Superern\Wallet\Interfaces\Wallet) {
                 continue;
             }
 

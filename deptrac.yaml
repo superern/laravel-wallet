@@ -6,146 +6,146 @@ parameters:
     - name: Legacy
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Objects\\Cart$
+          regex: ^Superern\\.*\\Objects\\Cart$
 
     - name: Contract
       collectors:
         - type: className
-          regex: ^Bavix\\Wallet\\Interfaces\\.*
+          regex: ^Superern\\Wallet\\Interfaces\\.*
         - type: className
-          regex: ^Bavix\\Wallet\\External\\Contracts\\.*
+          regex: ^Superern\\Wallet\\External\\Contracts\\.*
         - type: className
-          regex: ^Bavix\\Wallet\\External\\Dto\\.*
+          regex: ^Superern\\Wallet\\External\\Dto\\.*
 
     - name: Api
       collectors:
         - type: className
-          regex: ^Bavix\\Wallet\\External\\Api\\.*Interface$
+          regex: ^Superern\\Wallet\\External\\Api\\.*Interface$
 
     - name: ApiQuery
       collectors:
         - type: className
-          regex: ^Bavix\\Wallet\\External\\Api\\.*Query$
+          regex: ^Superern\\Wallet\\External\\Api\\.*Query$
 
     - name: ApiHandler
       collectors:
         - type: className
-          regex: ^Bavix\\Wallet\\External\\Api\\.*Handler$
+          regex: ^Superern\\Wallet\\External\\Api\\.*Handler$
 
     - name: UI
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Traits\\.*
+          regex: ^Superern\\.*\\Traits\\.*
 
     - name: UIException
       collectors:
         - type: className
           regex: ^Illuminate\\Database\\Eloquent\\ModelNotFoundException$
         - type: className
-          regex: ^Bavix\\Wallet\\Exceptions\\.*
+          regex: ^Superern\\Wallet\\Exceptions\\.*
 
     # internal
     - name: InternalException
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Internal\\Exceptions\\.*
+          regex: ^Superern\\.*\\Internal\\Exceptions\\.*
 
     - name: InternalListener
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Internal\\Listeners\\.*
+          regex: ^Superern\\.*\\Internal\\Listeners\\.*
 
     - name: Event
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Internal\\Events\\.*Event$
+          regex: ^Superern\\.*\\Internal\\Events\\.*Event$
 
     - name: EventInterface
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Internal\\Events\\.*EventInterface$
+          regex: ^Superern\\.*\\Internal\\Events\\.*EventInterface$
 
     - name: Dto
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Internal\\Dto\\.*Dto$
+          regex: ^Superern\\.*\\Internal\\Dto\\.*Dto$
 
     - name: DtoInterface
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Internal\\Dto\\.*DtoInterface$
+          regex: ^Superern\\.*\\Internal\\Dto\\.*DtoInterface$
 
     - name: AssemblerDto
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Internal\\Assembler\\.*DtoAssembler$
+          regex: ^Superern\\.*\\Internal\\Assembler\\.*DtoAssembler$
 
     - name: AssemblerDtoInterface
       collectors:
         - type: className
-          regex: ^Bavix\\.*\\Internal\\Assembler\\.*DtoAssemblerInterface$
+          regex: ^Superern\\.*\\Internal\\Assembler\\.*DtoAssemblerInterface$
 
     - name: QueryInterface
       collectors:
         - type: className
-          regex: ^Bavix\\.*Internal\\Query\\.*QueryInterface$
+          regex: ^Superern\\.*Internal\\Query\\.*QueryInterface$
 
     - name: Query
       collectors:
         - type: className
-          regex: ^Bavix\\.*Internal\\Query\\.*Query$
+          regex: ^Superern\\.*Internal\\Query\\.*Query$
 
     - name: RepositoryInterface
       collectors:
         - type: className
-          regex: ^Bavix\\.*Internal\\Repository\\.*RepositoryInterface$
+          regex: ^Superern\\.*Internal\\Repository\\.*RepositoryInterface$
 
     - name: Repository
       collectors:
         - type: className
-          regex: ^Bavix\\.*Internal\\Repository\\.*Repository$
+          regex: ^Superern\\.*Internal\\Repository\\.*Repository$
 
     - name: Transform
       collectors:
         - type: className
-          regex: ^Bavix\\.*Internal\\Transform\\.*DtoTransformer$
+          regex: ^Superern\\.*Internal\\Transform\\.*DtoTransformer$
 
     - name: TransformInterface
       collectors:
         - type: className
-          regex: ^Bavix\\.*Internal\\Transform\\.*DtoTransformerInterface$
+          regex: ^Superern\\.*Internal\\Transform\\.*DtoTransformerInterface$
 
     - name: Infra
       collectors:
         - type: className
-          regex: ^Bavix\\.*Internal\\Service\\.*Service$
+          regex: ^Superern\\.*Internal\\Service\\.*Service$
 
     - name: ServiceDecorator
       collectors:
         - type: className
-          regex: ^Bavix\\.*Decorator\\.*Decorator
+          regex: ^Superern\\.*Decorator\\.*Decorator
 
     # contracts
     - name: Model
       collectors:
         - type: className
-          regex: ^Bavix\\.*Models\\Transaction$
+          regex: ^Superern\\.*Models\\Transaction$
         - type: className
-          regex: ^Bavix\\.*Models\\Transfer$
+          regex: ^Superern\\.*Models\\Transfer$
         - type: className
-          regex: ^Bavix\\.*Models\\Wallet$
+          regex: ^Superern\\.*Models\\Wallet$
 
     - name: Service
       collectors:
         - type: className
-          regex: ^Bavix\\.*Services\\.*Service$
+          regex: ^Superern\\.*Services\\.*Service$
 
     - name: ServiceInterface
       collectors:
         - type: className
-          regex: ^Bavix\\.*Service\\.*ServiceInterface$
+          regex: ^Superern\\.*Service\\.*ServiceInterface$
         - type: className
-          regex: ^Bavix\\.*Services\\.*ServiceInterface$
+          regex: ^Superern\\.*Services\\.*ServiceInterface$
 
     # framework
     - name: EloquentModel

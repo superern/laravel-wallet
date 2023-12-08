@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Factories;
+namespace Superern\Wallet\Test\Infra\Factories;
 
-use Bavix\Wallet\Test\Infra\Models\ItemDiscountTax;
+use Superern\Wallet\Test\Infra\Models\ItemDiscountTax;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**

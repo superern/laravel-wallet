@@ -23,17 +23,17 @@ parameters:
 
             # phpunit
             - Orchestra\Testbench\TestCase
-            - Bavix\Wallet\Test\Infra\TestCase
+            - Superern\Wallet\Test\Infra\TestCase
 
             # wallet
-            - Bavix\Wallet\Models\Wallet
-            - Bavix\Wallet\Models\Transfer
-            - Bavix\Wallet\Models\Transaction
+            - Superern\Wallet\Models\Wallet
+            - Superern\Wallet\Models\Transfer
+            - Superern\Wallet\Models\Transaction
 
         classesNotRequiredToBeAbstractOrFinal:
-            - Bavix\Wallet\Models\Wallet
-            - Bavix\Wallet\Models\Transfer
-            - Bavix\Wallet\Models\Transaction
+            - Superern\Wallet\Models\Wallet
+            - Superern\Wallet\Models\Transfer
+            - Superern\Wallet\Models\Transaction
         interfacesImplementedByContainers:
             - Psr\Container\ContainerInterface
     paths:

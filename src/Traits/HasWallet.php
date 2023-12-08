@@ -2,26 +2,26 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Traits;
+namespace Superern\Wallet\Traits;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\External\Contracts\ExtraDtoInterface;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Models\Wallet as WalletModel;
-use Bavix\Wallet\Services\AtomicServiceInterface;
-use Bavix\Wallet\Services\CastServiceInterface;
-use Bavix\Wallet\Services\ConsistencyServiceInterface;
-use Bavix\Wallet\Services\PrepareServiceInterface;
-use Bavix\Wallet\Services\RegulatorServiceInterface;
-use Bavix\Wallet\Services\TransactionServiceInterface;
-use Bavix\Wallet\Services\TransferServiceInterface;
+use Superern\Wallet\Exceptions\AmountInvalid;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\External\Contracts\ExtraDtoInterface;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Models\Wallet as WalletModel;
+use Superern\Wallet\Services\AtomicServiceInterface;
+use Superern\Wallet\Services\CastServiceInterface;
+use Superern\Wallet\Services\ConsistencyServiceInterface;
+use Superern\Wallet\Services\PrepareServiceInterface;
+use Superern\Wallet\Services\RegulatorServiceInterface;
+use Superern\Wallet\Services\TransactionServiceInterface;
+use Superern\Wallet\Services\TransferServiceInterface;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Database\RecordsNotFoundException;
@@ -35,7 +35,7 @@ use function config;
  * @property string $balance
  * @property int $balanceInt
  * @psalm-require-extends \Illuminate\Database\Eloquent\Model
- * @psalm-require-implements \Bavix\Wallet\Interfaces\Wallet
+ * @psalm-require-implements \Superern\Wallet\Interfaces\Wallet
  */
 trait HasWallet
 {

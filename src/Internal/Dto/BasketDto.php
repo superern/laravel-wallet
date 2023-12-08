@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Dto;
+namespace Superern\Wallet\Internal\Dto;
 
-use Bavix\Wallet\Interfaces\ProductInterface;
+use Superern\Wallet\Interfaces\ProductInterface;
 use Generator;
 
 final class BasketDto implements BasketDtoInterface

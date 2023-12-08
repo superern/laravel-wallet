@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Services;
+namespace Superern\Wallet\Test\Infra\Services;
 
-use Bavix\Wallet\Internal\Service\ClockServiceInterface;
+use Superern\Wallet\Internal\Service\ClockServiceInterface;
 use DateTimeImmutable;
 
 final class ClockFakeService implements ClockServiceInterface

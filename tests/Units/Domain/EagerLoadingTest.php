@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Interfaces\ProductInterface;
-use Bavix\Wallet\Objects\Cart;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Factories\ItemFactory;
-use Bavix\Wallet\Test\Infra\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\Models\Item;
-use Bavix\Wallet\Test\Infra\Models\UserMulti;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Interfaces\ProductInterface;
+use Superern\Wallet\Objects\Cart;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Factories\ItemFactory;
+use Superern\Wallet\Test\Infra\Factories\UserMultiFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\Models\Item;
+use Superern\Wallet\Test\Infra\Models\UserMulti;
+use Superern\Wallet\Test\Infra\TestCase;
 use Illuminate\Database\Eloquent\Collection;
 
 /**

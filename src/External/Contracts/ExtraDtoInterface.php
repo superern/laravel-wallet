@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\External\Contracts;
+namespace Superern\Wallet\External\Contracts;
 
 interface ExtraDtoInterface
 {

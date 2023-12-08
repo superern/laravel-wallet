@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Listeners;
+namespace Superern\Wallet\Test\Infra\Listeners;
 
-use Bavix\Wallet\Internal\Events\BalanceUpdatedEventInterface;
-use Bavix\Wallet\Test\Infra\Exceptions\UnknownEventException;
+use Superern\Wallet\Internal\Events\BalanceUpdatedEventInterface;
+use Superern\Wallet\Test\Infra\Exceptions\UnknownEventException;
 use DateTimeInterface;
 
 final class BalanceUpdatedThrowDateListener

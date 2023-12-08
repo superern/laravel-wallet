@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Repository;
+namespace Superern\Wallet\Internal\Repository;
 
-use Bavix\Wallet\Internal\Exceptions\ModelNotFoundException;
-use Bavix\Wallet\Models\Wallet;
+use Superern\Wallet\Internal\Exceptions\ModelNotFoundException;
+use Superern\Wallet\Models\Wallet;
 
 interface WalletRepositoryInterface
 {

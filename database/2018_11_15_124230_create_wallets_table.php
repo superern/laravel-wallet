@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Wallet;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Models\Wallet;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;

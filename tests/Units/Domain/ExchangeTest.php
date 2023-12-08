@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\External\Dto\Extra;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Services\ExchangeService;
-use Bavix\Wallet\Services\ExchangeServiceInterface;
-use Bavix\Wallet\Services\RegulatorServiceInterface;
-use Bavix\Wallet\Test\Infra\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Infra\Models\UserMulti;
-use Bavix\Wallet\Test\Infra\Services\ExchangeUsdToBtcService;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\External\Dto\Extra;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Services\ExchangeService;
+use Superern\Wallet\Services\ExchangeServiceInterface;
+use Superern\Wallet\Services\RegulatorServiceInterface;
+use Superern\Wallet\Test\Infra\Factories\UserMultiFactory;
+use Superern\Wallet\Test\Infra\Models\UserMulti;
+use Superern\Wallet\Test\Infra\Services\ExchangeUsdToBtcService;
+use Superern\Wallet\Test\Infra\TestCase;
 use Illuminate\Support\Str;
 
 /**

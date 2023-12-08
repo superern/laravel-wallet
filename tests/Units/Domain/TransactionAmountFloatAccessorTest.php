@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Test\Infra\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Infra\Models\UserMulti;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Test\Infra\Factories\UserMultiFactory;
+use Superern\Wallet\Test\Infra\Models\UserMulti;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal
@@ -14,7 +14,7 @@ use Bavix\Wallet\Test\Infra\TestCase;
 final class TransactionAmountFloatAccessorTest extends TestCase
 {
     /**
-     * @see https://github.com/bavix/laravel-wallet/pull/533
+     * @see https://github.com/superern/laravel-wallet/pull/533
      */
     public function testTransactionAmountFloatAccessor(): void
     {

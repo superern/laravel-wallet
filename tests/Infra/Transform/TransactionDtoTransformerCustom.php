@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Transform;
+namespace Superern\Wallet\Test\Infra\Transform;
 
-use Bavix\Wallet\Internal\Dto\TransactionDtoInterface;
-use Bavix\Wallet\Internal\Transform\TransactionDtoTransformer;
-use Bavix\Wallet\Internal\Transform\TransactionDtoTransformerInterface;
+use Superern\Wallet\Internal\Dto\TransactionDtoInterface;
+use Superern\Wallet\Internal\Transform\TransactionDtoTransformer;
+use Superern\Wallet\Internal\Transform\TransactionDtoTransformerInterface;
 
 final class TransactionDtoTransformerCustom implements TransactionDtoTransformerInterface
 {

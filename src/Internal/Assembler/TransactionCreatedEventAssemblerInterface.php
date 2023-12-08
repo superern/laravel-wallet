@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Assembler;
+namespace Superern\Wallet\Internal\Assembler;
 
-use Bavix\Wallet\Internal\Events\TransactionCreatedEventInterface;
-use Bavix\Wallet\Models\Transaction;
+use Superern\Wallet\Internal\Events\TransactionCreatedEventInterface;
+use Superern\Wallet\Models\Transaction;
 
 interface TransactionCreatedEventAssemblerInterface
 {

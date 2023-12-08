@@ -4,7 +4,7 @@
 
 [Editing the application file](https://lumen.laravel.com/docs/5.8/providers#registering-providers) `bootstrap/app.php`
 ```php
-$app->register(\Bavix\Wallet\WalletServiceProvider::class);
+$app->register(\Superern\Wallet\WalletServiceProvider::class);
 ```
 
 You also need to add two lines to the "Register Container Bindings" section of the bootstrap/app.php file:

@@ -3,10 +3,10 @@
 Add the `CanConfirm` trait and `Confirmable` interface to your User model.
 
 ```php
-use Bavix\Wallet\Interfaces\Confirmable;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Traits\CanConfirm;
-use Bavix\Wallet\Traits\HasWallet;
+use Superern\Wallet\Interfaces\Confirmable;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Traits\CanConfirm;
+use Superern\Wallet\Traits\HasWallet;
 
 class UserConfirm extends Model implements Wallet, Confirmable
 {

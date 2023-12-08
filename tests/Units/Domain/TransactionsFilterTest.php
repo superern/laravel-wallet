@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Internal\Service\DatabaseServiceInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\PackageModels\Wallet;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Internal\Service\DatabaseServiceInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\PackageModels\Wallet;
+use Superern\Wallet\Test\Infra\TestCase;
 use function now;
 
 /**
@@ -134,7 +134,7 @@ final class TransactionsFilterTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/501
+     * @see https://github.com/superern/laravel-wallet/issues/501
      */
     public function testPagination2(): void
     {

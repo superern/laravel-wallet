@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Expand;
+namespace Superern\Wallet\Test\Units\Expand;
 
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\PackageModels\MyWallet;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\PackageModels\MyWallet;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal

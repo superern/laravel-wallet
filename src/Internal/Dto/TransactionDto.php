@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Dto;
+namespace Superern\Wallet\Internal\Dto;
 
 use DateTimeImmutable;
 

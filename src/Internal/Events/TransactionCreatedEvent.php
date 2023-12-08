@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Internal\Events;
+namespace Superern\Wallet\Internal\Events;
 
 use DateTimeImmutable;
 

@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Models;
+namespace Superern\Wallet\Models;
 
-use Bavix\Wallet\Interfaces\Confirmable;
-use Bavix\Wallet\Interfaces\Customer;
-use Bavix\Wallet\Interfaces\Exchangeable;
-use Bavix\Wallet\Interfaces\WalletFloat;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\TransactionFailedException;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Internal\Service\UuidFactoryServiceInterface;
-use Bavix\Wallet\Services\AtomicServiceInterface;
-use Bavix\Wallet\Services\RegulatorServiceInterface;
-use Bavix\Wallet\Traits\CanConfirm;
-use Bavix\Wallet\Traits\CanExchange;
-use Bavix\Wallet\Traits\CanPayFloat;
-use Bavix\Wallet\Traits\HasGift;
+use Superern\Wallet\Interfaces\Confirmable;
+use Superern\Wallet\Interfaces\Customer;
+use Superern\Wallet\Interfaces\Exchangeable;
+use Superern\Wallet\Interfaces\WalletFloat;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\TransactionFailedException;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Internal\Service\UuidFactoryServiceInterface;
+use Superern\Wallet\Services\AtomicServiceInterface;
+use Superern\Wallet\Services\RegulatorServiceInterface;
+use Superern\Wallet\Traits\CanConfirm;
+use Superern\Wallet\Traits\CanExchange;
+use Superern\Wallet\Traits\CanPayFloat;
+use Superern\Wallet\Traits\HasGift;
 use DateTimeInterface;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

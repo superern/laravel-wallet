@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\External\Dto\Extra;
-use Bavix\Wallet\External\Dto\Option;
-use Bavix\Wallet\Internal\Service\UuidFactoryServiceInterface;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\Models\UserMulti;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\External\Dto\Extra;
+use Superern\Wallet\External\Dto\Option;
+use Superern\Wallet\Internal\Service\UuidFactoryServiceInterface;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Factories\UserMultiFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\Models\UserMulti;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal

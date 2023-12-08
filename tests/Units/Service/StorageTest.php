@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Service;
+namespace Superern\Wallet\Test\Units\Service;
 
-use Bavix\Wallet\Internal\Decorator\StorageServiceLockDecorator;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\Service\StorageService;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Internal\Decorator\StorageServiceLockDecorator;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Superern\Wallet\Internal\Service\StorageService;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal

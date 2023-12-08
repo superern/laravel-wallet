@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Internal\Transform\TransactionDtoTransformerInterface;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\PackageModels\Transaction;
-use Bavix\Wallet\Test\Infra\PackageModels\TransactionMoney;
-use Bavix\Wallet\Test\Infra\TestCase;
-use Bavix\Wallet\Test\Infra\Transform\TransactionDtoTransformerCustom;
+use Superern\Wallet\Internal\Transform\TransactionDtoTransformerInterface;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\PackageModels\Transaction;
+use Superern\Wallet\Test\Infra\PackageModels\TransactionMoney;
+use Superern\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Test\Infra\Transform\TransactionDtoTransformerCustom;
 
 /**
  * @internal
@@ -40,7 +40,7 @@ final class WalletExtensionTest extends TestCase
 
     public function testTransactionMoneyAttribute(): void
     {
-        $this->app?->bind(\Bavix\Wallet\Models\Transaction::class, TransactionMoney::class);
+        $this->app?->bind(\Superern\Wallet\Models\Transaction::class, TransactionMoney::class);
 
         /** @var Buyer $buyer */
         $buyer = BuyerFactory::new()->create();

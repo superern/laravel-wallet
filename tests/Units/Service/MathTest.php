@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Service;
+namespace Superern\Wallet\Test\Units\Service;
 
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Test\Infra\TestCase;
 use Brick\Math\Exception\NumberFormatException;
 use PHPUnit\Framework\Attributes\DataProvider;
 

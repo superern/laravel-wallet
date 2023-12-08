@@ -2,31 +2,31 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Exceptions\AmountInvalid;
-use Bavix\Wallet\Exceptions\BalanceIsEmpty;
-use Bavix\Wallet\Exceptions\InsufficientFunds;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\ModelNotFoundException;
-use Bavix\Wallet\Internal\Service\DatabaseServiceInterface;
-use Bavix\Wallet\Internal\Service\UuidFactoryServiceInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Services\BookkeeperServiceInterface;
-use Bavix\Wallet\Services\RegulatorServiceInterface;
-use Bavix\Wallet\Test\Infra\Exceptions\PriceNotSetException;
-use Bavix\Wallet\Test\Infra\Factories\ItemFactory;
-use Bavix\Wallet\Test\Infra\Factories\ItemMultiPriceFactory;
-use Bavix\Wallet\Test\Infra\Factories\UserCashierFactory;
-use Bavix\Wallet\Test\Infra\Factories\UserMultiFactory;
-use Bavix\Wallet\Test\Infra\Helpers\Config;
-use Bavix\Wallet\Test\Infra\Models\Item;
-use Bavix\Wallet\Test\Infra\Models\ItemMultiPrice;
-use Bavix\Wallet\Test\Infra\Models\UserCashier;
-use Bavix\Wallet\Test\Infra\Models\UserMulti;
-use Bavix\Wallet\Test\Infra\PackageModels\Wallet;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Exceptions\AmountInvalid;
+use Superern\Wallet\Exceptions\BalanceIsEmpty;
+use Superern\Wallet\Exceptions\InsufficientFunds;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\ModelNotFoundException;
+use Superern\Wallet\Internal\Service\DatabaseServiceInterface;
+use Superern\Wallet\Internal\Service\UuidFactoryServiceInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Services\BookkeeperServiceInterface;
+use Superern\Wallet\Services\RegulatorServiceInterface;
+use Superern\Wallet\Test\Infra\Exceptions\PriceNotSetException;
+use Superern\Wallet\Test\Infra\Factories\ItemFactory;
+use Superern\Wallet\Test\Infra\Factories\ItemMultiPriceFactory;
+use Superern\Wallet\Test\Infra\Factories\UserCashierFactory;
+use Superern\Wallet\Test\Infra\Factories\UserMultiFactory;
+use Superern\Wallet\Test\Infra\Helpers\Config;
+use Superern\Wallet\Test\Infra\Models\Item;
+use Superern\Wallet\Test\Infra\Models\ItemMultiPrice;
+use Superern\Wallet\Test\Infra\Models\UserCashier;
+use Superern\Wallet\Test\Infra\Models\UserMulti;
+use Superern\Wallet\Test\Infra\PackageModels\Wallet;
+use Superern\Wallet\Test\Infra\TestCase;
 use Illuminate\Database\QueryException;
 use Throwable;
 use function range;
@@ -163,8 +163,8 @@ final class MultiWalletTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/286#issue-750353538
-     * @see https://github.com/bavix/laravel-wallet/issues/658
+     * @see https://github.com/superern/laravel-wallet/issues/286#issue-750353538
+     * @see https://github.com/superern/laravel-wallet/issues/658
      */
     public function testGetWalletOrFailError(): void
     {
@@ -180,8 +180,8 @@ final class MultiWalletTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/286#issue-750353538
-     * @see https://github.com/bavix/laravel-wallet/issues/658
+     * @see https://github.com/superern/laravel-wallet/issues/286#issue-750353538
+     * @see https://github.com/superern/laravel-wallet/issues/658
      */
     public function testGetWalletOrFailSuccess(): void
     {
@@ -200,7 +200,7 @@ final class MultiWalletTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/286#issue-750353538
+     * @see https://github.com/superern/laravel-wallet/issues/286#issue-750353538
      */
     public function testTransferWalletNotExists(): void
     {

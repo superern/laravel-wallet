@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Interfaces;
+namespace Superern\Wallet\Interfaces;
 
 interface ProductLimitedInterface extends ProductInterface
 {

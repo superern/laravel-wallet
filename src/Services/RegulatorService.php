@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Services;
+namespace Superern\Wallet\Services;
 
-use Bavix\Wallet\Internal\Assembler\BalanceUpdatedEventAssemblerInterface;
-use Bavix\Wallet\Internal\Exceptions\RecordNotFoundException;
-use Bavix\Wallet\Internal\Repository\WalletRepositoryInterface;
-use Bavix\Wallet\Internal\Service\DispatcherServiceInterface;
-use Bavix\Wallet\Internal\Service\LockServiceInterface;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Internal\Service\StorageServiceInterface;
-use Bavix\Wallet\Models\Wallet;
+use Superern\Wallet\Internal\Assembler\BalanceUpdatedEventAssemblerInterface;
+use Superern\Wallet\Internal\Exceptions\RecordNotFoundException;
+use Superern\Wallet\Internal\Repository\WalletRepositoryInterface;
+use Superern\Wallet\Internal\Service\DispatcherServiceInterface;
+use Superern\Wallet\Internal\Service\LockServiceInterface;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Internal\Service\StorageServiceInterface;
+use Superern\Wallet\Models\Wallet;
 use PHPUnit\Framework\Attributes\CodeCoverageIgnore;
 
 /**

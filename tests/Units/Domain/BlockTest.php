@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\External\Dto\Extra;
-use Bavix\Wallet\External\Dto\Option;
-use Bavix\Wallet\Internal\Service\UuidFactoryServiceInterface;
-use Bavix\Wallet\Models\Transaction;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\External\Dto\Extra;
+use Superern\Wallet\External\Dto\Option;
+use Superern\Wallet\Internal\Service\UuidFactoryServiceInterface;
+use Superern\Wallet\Models\Transaction;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\TestCase;
 
 /**
  * @internal
@@ -18,8 +18,8 @@ use Bavix\Wallet\Test\Infra\TestCase;
 final class BlockTest extends TestCase
 {
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/174
-     * @see https://github.com/bavix/laravel-wallet/issues/416
+     * @see https://github.com/superern/laravel-wallet/issues/174
+     * @see https://github.com/superern/laravel-wallet/issues/416
      */
     public function testBlockTransfer(): void
     {

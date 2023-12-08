@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Units\Domain;
+namespace Superern\Wallet\Test\Units\Domain;
 
-use Bavix\Wallet\Internal\Exceptions\CartEmptyException;
-use Bavix\Wallet\Internal\Exceptions\ExceptionInterface;
-use Bavix\Wallet\Internal\Exceptions\ModelNotFoundException;
-use Bavix\Wallet\Internal\Service\MathServiceInterface;
-use Bavix\Wallet\Models\Transfer;
-use Bavix\Wallet\Objects\Cart;
-use Bavix\Wallet\Services\PurchaseServiceInterface;
-use Bavix\Wallet\Test\Infra\Factories\BuyerFactory;
-use Bavix\Wallet\Test\Infra\Factories\ItemFactory;
-use Bavix\Wallet\Test\Infra\Factories\ItemMetaFactory;
-use Bavix\Wallet\Test\Infra\Models\Buyer;
-use Bavix\Wallet\Test\Infra\Models\Item;
-use Bavix\Wallet\Test\Infra\Models\ItemMeta;
-use Bavix\Wallet\Test\Infra\PackageModels\Transaction;
-use Bavix\Wallet\Test\Infra\TestCase;
+use Superern\Wallet\Internal\Exceptions\CartEmptyException;
+use Superern\Wallet\Internal\Exceptions\ExceptionInterface;
+use Superern\Wallet\Internal\Exceptions\ModelNotFoundException;
+use Superern\Wallet\Internal\Service\MathServiceInterface;
+use Superern\Wallet\Models\Transfer;
+use Superern\Wallet\Objects\Cart;
+use Superern\Wallet\Services\PurchaseServiceInterface;
+use Superern\Wallet\Test\Infra\Factories\BuyerFactory;
+use Superern\Wallet\Test\Infra\Factories\ItemFactory;
+use Superern\Wallet\Test\Infra\Factories\ItemMetaFactory;
+use Superern\Wallet\Test\Infra\Models\Buyer;
+use Superern\Wallet\Test\Infra\Models\Item;
+use Superern\Wallet\Test\Infra\Models\ItemMeta;
+use Superern\Wallet\Test\Infra\PackageModels\Transaction;
+use Superern\Wallet\Test\Infra\TestCase;
 use Illuminate\Database\Eloquent\Collection;
 use function count;
 
@@ -272,7 +272,7 @@ final class CartTest extends TestCase
     }
 
     /**
-     * @see https://github.com/bavix/laravel-wallet/issues/279
+     * @see https://github.com/superern/laravel-wallet/issues/279
      */
     public function testWithdrawal(): void
     {

@@ -6,7 +6,7 @@ If you need multiple transfers between wallets, you can use a high-performance h
 
 Previously, you would have written the following code:
 ```php
-use Bavix\Wallet\Services\AtomicServiceInterface;
+use Superern\Wallet\Services\AtomicServiceInterface;
 
 app(AtomicServiceInterface::class)->block($from, function () use ($amount, $from, $wallets) {
     foreach ($wallets as $wallet) {
@@ -17,8 +17,8 @@ app(AtomicServiceInterface::class)->block($from, function () use ($amount, $from
 
 This would lead to the generation of a huge number of requests to the database and cache, because. the package does not know that the response from `forceTransfer` is not used by you at all inside AtomicService. Now, you can report it:
 ```php
-use Bavix\Wallet\External\Api\TransferQuery;
-use Bavix\Wallet\External\Api\TransferQueryHandlerInterface;
+use Superern\Wallet\External\Api\TransferQuery;
+use Superern\Wallet\External\Api\TransferQueryHandlerInterface;
 
 app(TransferQueryHandlerInterface::class)->apply(
     array_map(
@@ -36,14 +36,14 @@ In version 10.x, it became possible to create transactions&transfers with a give
 The main thing is to keep uniqueness.
 
 ```php
-use Bavix\Wallet\External\Api\TransferQuery;
+use Superern\Wallet\External\Api\TransferQuery;
 
-new TransferQuery($from, $wallet, $amount, new \Bavix\Wallet\External\Dto\Extra(
-    deposit: new \Bavix\Wallet\External\Dto\Option(
+new TransferQuery($from, $wallet, $amount, new \Superern\Wallet\External\Dto\Extra(
+    deposit: new \Superern\Wallet\External\Dto\Option(
         null,
         uuid: '71cecafe-da10-464f-9e00-c80437bb4c3e', // deposit transaction
     ),
-    withdraw: new \Bavix\Wallet\External\Dto\Option(
+    withdraw: new \Superern\Wallet\External\Dto\Option(
         null,
         uuid: '3805730b-39a1-419d-8715-0b7cc3f1ffc2', // withdraw transaction
     ),

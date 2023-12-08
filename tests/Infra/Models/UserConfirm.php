@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Bavix\Wallet\Test\Infra\Models;
+namespace Superern\Wallet\Test\Infra\Models;
 
-use Bavix\Wallet\Interfaces\Confirmable;
-use Bavix\Wallet\Interfaces\Wallet;
-use Bavix\Wallet\Traits\CanConfirm;
-use Bavix\Wallet\Traits\HasWallet;
+use Superern\Wallet\Interfaces\Confirmable;
+use Superern\Wallet\Interfaces\Wallet;
+use Superern\Wallet\Traits\CanConfirm;
+use Superern\Wallet\Traits\HasWallet;
 use Illuminate\Database\Eloquent\Model;
 
 /**

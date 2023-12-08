@@ -1,10 +1,10 @@
 {
-  "name": "bavix/laravel-wallet",
+  "name": "superern/laravel-wallet",
   "description": "Easy work with virtual wallet.",
   "keywords": [
     "laravel",
     "credits",
-    "bavix",
+    "superern",
     "currency",
     "laravel-wallet",
     "laravel-package",
@@ -13,12 +13,12 @@
     "payments"
   ],
   "minimum-stability": "stable",
-  "homepage": "https://bavix.github.io/laravel-wallet/",
+  "homepage": "https://superern.github.io/laravel-wallet/",
   "license": "MIT",
   "authors": [
     {
-      "name": "Babichev Maxim",
-      "email": "info@babichev.net"
+      "name": "Superern",
+      "email": "superern14@gmail.com"
     }
   ],
   "require": {
@@ -45,18 +45,14 @@
     "rector/rector": "^0.17",
     "symplify/easy-coding-standard": "^12.0"
   },
-  "suggest": {
-    "bavix/laravel-wallet-swap": "Addition to the laravel-wallet library for quick setting of exchange rates",
-    "bavix/laravel-wallet-warmup": "Addition to the laravel-wallet library for refresh balance wallets"
-  },
   "autoload": {
     "psr-4": {
-      "Bavix\\Wallet\\": "src/"
+      "Superern\\Wallet\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Bavix\\Wallet\\Test\\": "tests/"
+      "Superern\\Wallet\\Test\\": "tests/"
     }
   },
   "scripts": {
@@ -80,7 +76,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Bavix\\Wallet\\WalletServiceProvider"
+        "Superern\\Wallet\\WalletServiceProvider"
       ]
     }
   },
