@@ -22,9 +22,6 @@ return new class() extends Migration
             $table->foreignId('wallet_id')
                 ->constrained()
                 ->cascadeOnDelete();
-            $table->foreignId('delivery_id')
-                ->constrained()
-                ->cascadeOnDelete();
 
             $table->enum('type', TransactionType::toValues())->index(); // deposit or withdraw
             $table->decimal('amount', 64, 0);
