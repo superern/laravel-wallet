@@ -26,6 +26,7 @@ use function config;
  * @property string $amountFloat
  * @property bool $confirmed
  * @property array $meta
+ * @property string $reference
  * @property Wallet $payable
  * @property WalletModel $wallet
  *
@@ -49,6 +50,7 @@ class Transaction extends Model
         'amount',
         'confirmed',
         'meta',
+        'reference',
         'created_at',
         'updated_at',
     ];
